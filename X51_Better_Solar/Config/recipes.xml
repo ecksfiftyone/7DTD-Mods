@@ -1,0 +1,36 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="solarbank" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceElectricParts" count="12"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceScrapBrass" count="10"/>
+			<ingredient name="electricwirerelay" count="1"/>
+		</recipe>
+
+		<recipe name="solarFrame" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="200"/> <!-- Lvl 1-6 -->
+			<ingredient name="resourceBrokenGlass" count="100"/> <!-- Lvl 1-6 -->
+			<ingredient name="resourceForgedSteel" count="50"/> <!-- Lvl 1-6 -->
+			<ingredient name="resourceForgedIron" count="100"/> <!-- Lvl 1-6 -->
+		</recipe>
+
+<!--Solar Cell Crafting-->
+		<recipe name="solarCell" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="solarFrame" count="1"/>
+			<ingredient name="resourceSilverNugget" count="2"/>
+			<ingredient name="resourceGoldNugget" count="0"/>
+			<ingredient name="resourceRawDiamond" count="0"/>
+			<ingredient name="resourceLegendaryParts" count="1"/>
+
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="base_add" value="2,10" tags="resourceSilverNugget"/>
+				<passive_effect name="CraftingIngredientCount" level="3,4,5,6" operation="base_add" value="2,4,6,10" tags="resourceGoldNugget"/>
+				<passive_effect name="CraftingIngredientCount" level="4,5,6" operation="base_add" value="2,4,10" tags="resourceRawDiamond"/>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="base_add" value="1,5" tags="resourceLegendaryParts"/>
+			</effect_group>
+		</recipe>
+		
+	</append>
+</configs>

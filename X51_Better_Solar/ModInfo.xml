@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="X51BetterSolar" />
+    <DisplayName value="x51 - Better Solar" />
+    <Version value="1.21.0.0" />
+    <Description value="Increases power output to match battery bank." />
+    <Author value="x51" />
+    <Website value="" />
+</xml>

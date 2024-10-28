@@ -1,0 +1,12 @@
+  - Higher chance traders stock solar cells.
+  - Added solar bank bundle (low possibility) in some things like air drops and quest rewards.
+  - Added recipes to craft solar. (Expensive)
+
+
+  - Increases Solar Cell output to match batteries.
+
+This is due to the fact that electricity works wrong. 
+Solar -> battery -> item should use battery power while the solar cells charge the batteries.
+Since the devices ignore batteries and OLY use solar, AND you cant daisychain Solar, it needed to change. 
+
+

@@ -1,0 +1,16 @@
+<configs>
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@icon='carBattery']">
+            <unlock_entry item="carBattery,solarCell,solarFrame" unlock_tier="1" />
+	</set>		
+	<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@icon='batterybank']">
+        <unlock_entry item="batterybank,solarbank,vaultDoor01_Powered,vaultDoor01Double_Powered,vaultHatch01_Powered,ironGarageDoor_PoweredBlockVariantHelper,woodenGarageDoor3x3_PoweredBlockVariantHelper,woodenGarageDoor4x3_PoweredBlockVariantHelper,woodenGarageDoor5x3_PoweredBlockVariantHelper,steelGarageDoor3x3_PoweredBlockVariantHelper,steelGarageDoor4x3_PoweredBlockVariantHelper,steelGarageDoor5x3_PoweredBlockVariantHelper,metalReinforcedWoodDrawBridgePowered" unlock_tier="1"/>
+    </set>
+	
+	<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="generatorbank,electricwirerelay,switch,tripwirepost,ceilingLight01_player,industrialLight01_player,industrialLight02_player,ceilingLight07_player" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="motionsensor,electrictimerrelay,pressureplate,pressureplateLong,spotlightPlayer,speaker" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="batterybank,solarbank,vaultDoor01_Powered,vaultDoor01Double_Powered,vaultHatch01_Powered,ironGarageDoor_PoweredBlockVariantHelper,woodenGarageDoor3x3_PoweredBlockVariantHelper,woodenGarageDoor4x3_PoweredBlockVariantHelper,woodenGarageDoor5x3_PoweredBlockVariantHelper,steelGarageDoor3x3_PoweredBlockVariantHelper,steelGarageDoor4x3_PoweredBlockVariantHelper,steelGarageDoor5x3_PoweredBlockVariantHelper,metalReinforcedWoodDrawBridgePowered" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="carBattery,solarCell,solarFrame" />
+        <passive_effect name="CraftingTier" operation="base_add" level="60,70,80,90,100" value="1,2,3,4,5" tags="carBattery,solarCell" />
+    </set>
+</configs>

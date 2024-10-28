@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+solarFrame,items,Part,,,Solar Frame,,,,,,,,,,,
+solarFrameDesc,items,Part,,,Base item needed to craft Solar Cells..,,,,,,,,,,,,,,
+

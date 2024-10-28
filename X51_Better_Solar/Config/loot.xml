@@ -1,0 +1,22 @@
+<configs>
+
+<!-- Airdrop Solar Bundle -->	
+	<append xpath="lootcontainers/lootgroup[@name='groupAirDropT5Bundles']" >
+	    <item name="questRewardSolarBankBundle" count="1"/>
+    </append> 
+	
+	<append xpath="lootcontainers/lootgroup[@name='groupAirDropT4Bundles']" >
+	    <item name="questRewardSolarBankBundle" count="1"/>
+    </append> 
+
+	<append xpath="lootcontainers/lootgroup[@name='groupAirDropT3Bundles']" >
+	    <item name="questRewardSolarBankBundle" count="1"/>
+    </append> 
+	
+<!-- Solar Cells in Electrical -->	
+	<append xpath="lootcontainers/lootgroup[@name='groupElectricalDevices']" >
+	    <item name="solarCell" count="1" loot_prob_template="Low"/>
+    </append> 
+
+
+</configs>

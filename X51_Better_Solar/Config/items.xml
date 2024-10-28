@@ -1,0 +1,37 @@
+<configs>
+
+  <!-- ##  Cheaper Solar Cells ## -->
+	<set xpath="/items/item[@name='solarCell']/property[@name='EconomicValue']/@value">2500</set> <!-- Default Value: 4000 -->       
+
+  <!-- ##  Expensive Metals ## -->
+	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='EconomicValue']/@value">1000</set> <!-- Default Value: 250 -->       
+	<set xpath="/items/item[@name='resourceGoldNugget']/property[@name='EconomicValue']/@value">2100</set> <!-- Default Value: 700 -->       
+	<set xpath="/items/item[@name='resourceRawDiamond']/property[@name='EconomicValue']/@value">4500</set> <!-- Default Value: 1500 -->       
+
+
+	<append xpath="/items/item[@name='solarCell']">
+		<property name="UnlockedBy" value="craftingElectrician"/>
+        <property name="Tags" value="workstationSkill" />
+		<property name="SellableToTrader" value="true"/>
+		<property name="EconomicValue" value="12000"/>
+	</append>
+
+	<append xpath="items">	
+		<item name="solarFrame">
+			<property name="CreativeMode" value="Player"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="CustomIcon" value="solarCell"/>
+			<property name="CustomIconTint" value="262423"/>
+			<property name="DescriptionKey" value="solarFrameDesc"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/> <!-- STK resource -->
+			<property name="EconomicValue" value="5000"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientTime" value=".1"/>
+		</item>
+	</append>
+
+</configs>
