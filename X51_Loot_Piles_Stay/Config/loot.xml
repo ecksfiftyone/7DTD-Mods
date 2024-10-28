@@ -1,0 +1,64 @@
+<configs>
+ <!-- Set All Loot contaners to stay 
+	<set xpath="/lootcontainers/lootcontainer/property[@name='destroy_on_close']/@value">false</set>
+-->
+
+	<set xpath="/lootcontainers/lootcontainer[contains(@destroy_on_close, 'empty')]/@destroy_on_close">false</set>
+	<set xpath="/lootcontainers/lootcontainer[contains(@destroy_on_close, 'true')]/@destroy_on_close">false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="airDrop"]/@destroy_on_close'>empty</set>
+
+<!-- Old	
+	<set xpath='/lootcontainers/lootcontainer[@name="pants"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="shirts"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="militaryPants"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="militaryShirts"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="shoes"]/@destroy_on_close'>false</set>
+	
+	<set xpath='/lootcontainers/lootcontainer[@name="weaponsBagSmall"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="weaponsBagLarge"]/@destroy_on_close'>false</set>
+
+	<set xpath='/lootcontainers/lootcontainer[@name="ammoPileSmall"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="ammoPileMed"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="ammoPileLarge"]/@destroy_on_close'>false</set>
+	
+	<set xpath='/lootcontainers/lootcontainer[@name="foodPileSmall"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="foodPileMed"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="foodPileLarge"]/@destroy_on_close'>false</set>
+	
+	<set xpath='/lootcontainers/lootcontainer[@name="medicalPileSmall"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="medicalPileMedium"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="medicalPileLarge"]/@destroy_on_close'>false</set>
+
+	<set xpath='/lootcontainers/lootcontainer[@name="liquorPileSmall"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="liquorPileMed"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="liquorPileLarge"]/@destroy_on_close'>false</set>
+
+	<set xpath='/lootcontainers/lootcontainer[@name="chemPileSmall"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="chemPileMed"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="chemPileLarge"]/@destroy_on_close'>false</set>
+	
+	<set xpath='/lootcontainers/lootcontainer[@name="bookPile"]/@destroy_on_close'>false</set>
+    <set xpath='/lootcontainers/lootcontainer[@name="singleBooks"]/@destroy_on_close'>false</set>
+	
+	<set xpath='/lootcontainers/lootcontainer[@name="smallSafes"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="gunSafe"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="cntBackpack"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="junk"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="oven"]/@destroy_on_close'>false</set>
+	<set xpath='/lootcontainers/lootcontainer[@name="laundryBasket"]/@destroy_on_close'>false</set>
+-->
+	
+	
+
+	
+
+
+	
+	
+	
+	
+</configs>
+
+
+
+

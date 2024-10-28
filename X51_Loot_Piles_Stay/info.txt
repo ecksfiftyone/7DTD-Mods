@@ -1,0 +1,2 @@
+Stops loot piles and other containers from being destroyed when looted. 
+Loot respawns according to game / server rules. 
