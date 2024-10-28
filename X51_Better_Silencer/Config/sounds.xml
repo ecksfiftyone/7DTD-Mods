@@ -37,7 +37,7 @@
 	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise[@ID='0']/@heat_map_time">90</set> <!-- Default: 180 (A21) -->
 	<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise[@ID='0']/@muffled_when_crouched">0.5</set> <!-- Default: 0.8 (A21) -->
 
-<!-- AK47 -->
+<!-- m60 -->
 	<set xpath="/Sounds/SoundDataNode[@name='m60_s_fire']/Noise[@ID='0']/@noise">25</set> <!-- Default: 47 (A21) -->
 	<set xpath="/Sounds/SoundDataNode[@name='m60_s_fire']/Noise[@ID='0']/@heat_map_strength">0.3</set> <!-- Default: 0.65 (A21) -->
 	<set xpath="/Sounds/SoundDataNode[@name='m60_s_fire']/Noise[@ID='0']/@heat_map_time">90</set> <!-- Default: 180 (A21) -->
