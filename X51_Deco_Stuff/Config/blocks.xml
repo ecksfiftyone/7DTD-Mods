@@ -1,0 +1,54 @@
+
+<configs>
+    <append xpath="/blocks">
+
+<!-- X51 - Fertilizer Pallets -->
+        <block name="x51DecoFertilizerPlayerVariantHelper">
+            <property name="Extends" value="palletBagFertilizerBaseFull"/>
+			<property name="CustomIcon" value="palletBagFertilizerBaseFull"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51DecoFertilizerPlayerVariantHelperDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="palletBagFertilizerBaseFull,palletBagFertilizerTile,palletBagFertilizerBaseMed,palletBagFertilizerCapMed,palletBagFertilizerCapSml,palletBagFertilizerSingleBent,palletBagFertilizerSingleFlat"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Concrete Pallets -->
+        <block name="x51DecoConcretePlayerVariantHelper">
+            <property name="Extends" value="palletBagConcreteBaseFull"/>
+			<property name="CustomIcon" value="palletBagConcreteBaseFull"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51DecoConcretePlayerVariantHelperDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="palletBagConcreteBaseFull,palletBagConcreteTile,palletBagConcreteBaseMed,palletBagConcreteCapMed,palletBagConcreteBaseSml,palletBagConcreteCapSml,palletBagConcreteSingleBent,palletBagConcreteSingleFlat"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>		
+
+<!-- X51 - Sand Pallets -->
+        <block name="x51DecoSandPlayerVariantHelper">
+            <property name="Extends" value="palletBagSandBaseFull"/>
+			<property name="CustomIcon" value="palletBagSandBaseFull"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51DecoSandPlayerVariantHelperDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="palletBagSandBaseFull,palletBagSandTile,palletBagSandBaseMed,palletBagSandCapMed,palletBagSandCapSml,palletBagSandSingleBent,palletBagSandSingleFlat"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>	
+
+<!-- X51 - Bulk Goods Pallets -->
+        <block name="x51DecoBulkGoodsPlayerVariantHelper">
+            <property name="Extends" value="palletBagBlankBaseFullWhite"/>
+			<property name="CustomIcon" value="palletBagBlankBaseFullWhite"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51DecoBulkGoodsPlayerVariantHelperDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="palletBagBlankBaseFullWhite,palletBagBlankTileWhite,palletBagBlankBaseMedWhite,palletBagBlankCapMedWhite,palletBagBlankCapSmlWhite,palletBagBlankSingleBentWhite,palletBagBlankSingleFlatWhite,palletBagBlankBaseFullBrown,palletBagBlankTileBrown,palletBagBlankBaseMedBrown,palletBagBlankCapMedBrown,palletBagBlankCapSmlBrown,palletBagBlankSingleBentBrown,palletBagBlankSingleFlatBrown,palletBagBlankBaseFullRed,palletBagBlankTileRed,palletBagBlankBaseMedRed,palletBagBlankCapMedRed,palletBagBlankCapSmlRed,palletBagBlankSingleBentRed,palletBagBlankSingleFlatRed,palletBagBlankBaseFullOrange,palletBagBlankTileOrange,palletBagBlankBaseMedOrange,palletBagBlankCapMedOrange,palletBagBlankCapSmlOrange,palletBagBlankSingleBentOrange,palletBagBlankSingleFlatOrange,palletBagBlankBaseFullYellow,palletBagBlankTileYellow,palletBagBlankBaseMedYellow,palletBagBlankCapMedYellow,palletBagBlankCapSmlYellow,palletBagBlankSingleBentYellow,palletBagBlankSingleFlatYellow,palletBagBlankBaseFullGreen,palletBagBlankTileGreen,palletBagBlankBaseMedGreen,palletBagBlankCapMedGreen,palletBagBlankCapSmlGreen,palletBagBlankSingleBentGreen,palletBagBlankSingleFlatGreen,palletBagBlankBaseFullBlue,palletBagBlankTileBlue,palletBagBlankBaseMedBlue,palletBagBlankCapMedBlue,palletBagBlankCapSmlBlue,palletBagBlankSingleBentBlue,palletBagBlankSingleFlatBlue,palletBagBlankBaseFullPurple,palletBagBlankTilePurple,palletBagBlankBaseMedPurple,palletBagBlankCapMedPurple,palletBagBlankCapSmlPurple,palletBagBlankSingleBentPurple,palletBagBlankSingleFlatPurple,palletBagBlankBaseFullGrey,palletBagBlankTileGrey,palletBagBlankBaseMedGrey,palletBagBlankCapMedGrey,palletBagBlankCapSmlGrey,palletBagBlankSingleBentGrey,palletBagBlankSingleFlatGrey,palletBagBlankBaseFullBlack,palletBagBlankTileBlack,palletBagBlankBaseMedBlack,palletBagBlankCapMedBlack,palletBagBlankCapSmlBlack,palletBagBlankSingleBentBlack,palletBagBlankSingleFlatBlack,palletBagBlankBaseFullPink,palletBagBlankTilePink,palletBagBlankBaseMedPink,palletBagBlankCapMedPink,palletBagBlankCapSmlPink,palletBagBlankSingleBentPink,palletBagBlankSingleFlatPink,palletBagBlankBaseFullArmyGreen,palletBagBlankTileArmyGreen,palletBagBlankBaseMedArmyGreen,palletBagBlankCapMedArmyGreen,palletBagBlankCapSmlArmyGreen,palletBagBlankSingleBentArmyGreen,palletBagBlankSingleFlatArmyGreen"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>			
+		
+    </append>
+</configs>

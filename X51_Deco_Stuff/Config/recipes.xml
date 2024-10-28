@@ -1,0 +1,38 @@
+
+<configs>
+    <append xpath="/recipes">
+
+<!-- X51 - Fertilizer Pallets -->
+		<recipe name="x51DecoFertilizerPlayerVariantHelper" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourcePotassiumNitratePowder" count="50"/>
+			<ingredient name="resourceClayLump" count="10"/>
+			<ingredient name="resourcePaper" count="25"/> 
+			<ingredient name="resourceWood" count="20"/>			
+        </recipe>
+
+<!-- X51 - Concrete Pallets -->
+		<recipe name="x51DecoConcretePlayerVariantHelper" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceCement" count="50"/>
+			<ingredient name="resourceCrushedSand" count="10"/>
+			<ingredient name="resourceRockSmall" count="10"/>
+			<ingredient name="resourcePaper" count="25"/>
+			<ingredient name="resourceWood" count="20"/>
+        </recipe>
+
+<!-- X51 - Sand Pallets -->
+		<recipe name="x51DecoSandPlayerVariantHelper" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCrushedSand" count="50"/>
+			<ingredient name="resourcePaper" count="25"/>
+			<ingredient name="resourceWood" count="20"/>
+        </recipe>
+
+<!-- X51 - Bulk Goods Pallets -->
+		<recipe name="x51DecoBulkGoodsPlayerVariantHelper" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourcePotassiumNitratePowder" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="10"/>
+			<ingredient name="resourcePaper" count="25"/>
+			<ingredient name="resourceWood" count="20"/>
+        </recipe>
+		
+    </append>
+</configs>

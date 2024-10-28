@@ -1,0 +1,40 @@
+<configs>
+	<append xpath="/blocks">
+
+		<block name="A01_x51_Starter_Kit_Break_Open">
+			<property name="CustomIcon" value="cntShippingCrateHero"/>
+			<property name="DescriptionKey" value="cntLootCrateHeroDesc"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/shippingCratePrefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="Material" value="Mplants"/>
+			<property name="Path" value="solid"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DowngradeBlock" value="A02_x51_Starter_Kit"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+
+		<block name="A02_x51_Starter_Kit">
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="x51_StarterKit"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Industrial/boxCardboard3Prefab"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="Path" value="solid"/>
+			<property class="RepairItems">
+				<property name="resourcePaper" value="10"/>
+				<property name="resourceWood" value="4"/>
+			</property>
+			<drop event="Destroy" count="0"/>
+			<property name="SortOrder1" value="B103"/>
+			<property name="SortOrder2" value="0100"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+				
+	</append>
+</configs>
+

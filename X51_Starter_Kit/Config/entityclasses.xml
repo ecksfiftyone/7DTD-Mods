@@ -1,0 +1,5 @@
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">A01_x51_Starter_Kit_Break_Open</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">A01_x51_Starter_Kit_Break_Open</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">A01_x51_Starter_Kit_Break_Open</set>
+</configs>

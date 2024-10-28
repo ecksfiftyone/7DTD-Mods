@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,english
+A01_x51_Starter_Kit_Break_Open,blocks,Furniture,,Sealed x51 Starter Kit
+A01_x51_Starter_Kit_Break_OpenDesc,blocks,Furniture,,Please down and break open. Punch to open. 
+A02_x51_Starter_Kit,blocks,Furniture,,x51 Starter Kit
+A02_x51_Starter_KitDesc,blocks,Furniture,,A starter kit filled with random goodies. 
+
+

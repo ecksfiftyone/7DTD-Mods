@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,english
+x51DecoBulkGoodsPlayerVariantHelper,blocks,Furniture,,Decorative Bulk Goods Bags / Pallets
+x51DecoSandPlayerVariantHelper,blocks,Furniture,,Decorative Sand Bags / Pallets
+x51DecoConcretePlayerVariantHelper,blocks,Furniture,,Decorative Concrete Bags / Pallets
+x51DecoFertilizerPlayerVariantHelper,blocks,Furniture,,Decorative Fertilizer Bags / Pallets
+x51DecoBulkGoodsPlayerVariantHelperDesc,blocks,Furniture,,Decorative Bulk Goods Bags / Pallets
+x51DecoSandPlayerVariantHelperDesc,blocks,Furniture,,Decorative Sand Bags / Pallets
+x51DecoConcretePlayerVariantHelperDesc,blocks,Furniture,,Decorative Concrete Bags / Pallets
+x51DecoFertilizerPlayerVariantHelperDesc,blocks,Furniture,,Decorative Fertilizer Bags/ Pallets

@@ -1,0 +1,8 @@
+Adds more craftable decorative items to compliment Sams Deco Stuff.
+  - Pallets of fertilizer. (Several Variants)
+  - Pallets of concrete. (Several Variants)
+  - Palets of bulk goods. (Several Variants and colors)
+      - 
+
+
+
