@@ -1,0 +1,190 @@
+<blocks>
+<!--voxelblock-->
+	
+<!--Farm Plot Voxel Blocks-->
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelBlock">
+			<property name="Material" value="mFarmplot_Voxel_Block"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="farm_plot"/>
+			<property name="Texture" value="65"/>
+			<property name="CustomIcon" value="farmPlotBlock"/>
+			<property name="CustomIconTint" value="C4A484"/>
+			<property name="UiBackgroundTexture" value="65"/>
+			<property name="ItemTypeIcon" value="frames"/>
+			<property name="ItemTypeIconColor" value="128,256,128,255" />
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Group" value="Food/Cooking,Building,advBuilding"/>
+			<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+			<property name="Tags" value="earth"/>
+			<property name="DescriptionKey" value="x51FarmPlotVoxelBlockDesc"/>
+			<property name="FuelValue" value="0"/>
+			<property class="RepairItems">
+				<property name="resourceClayLump" value="3"/>
+			</property>
+			<drop event="Destroy" name="x51FarmPlotVoxelBlockVariantHelper"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0000"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="x51FarmPlotVoxel"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelBlockCornerRound">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="x51FarmPlotVoxelBlock"/>
+			<property name="Model" value="farm_plot_corner_round"/>
+			<property name="CustomIcon" value="farmPlotBlockCornerRound"/>
+			<property name="CustomIconTint" value="C4A484"/>
+			<property name="AltItemTypeIcon" value="frames"/>
+			<property name="Model" value="farm_plot_corner_round"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0001"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="x51FarmPlotVoxelCornerRound"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="CanPickup" value="true"/>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelBlockRaised">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="x51FarmPlotVoxelBlock"/>
+			<property name="Model" value="farm_plot_raised"/>
+			<property name="CustomIcon" value="farmPlotBlockRaised"/>
+			<property name="CustomIconTint" value="C4A484"/>
+			<property name="AltItemTypeIcon" value="frames"/>
+			<property name="Model" value="farm_plot_corner_round"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0002"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="x51FarmPlotVoxelRaised"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="CanPickup" value="true"/>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelBlockVariantHelper">
+			<property name="Extends" value="x51FarmPlotVoxelBlock"/>
+			<property name="CustomIcon" value="farmPlotBlock"/>
+			<property name="CustomIconTint" value="C4A484"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="Model" value="farm_plot_corner_round"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0002"/>
+			<property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="x51FarmPlotVoxelBlock,x51FarmPlotVoxelBlockCornerRound,x51FarmPlotVoxelBlockRaised"/>
+            <property name="FilterTags" value="MC_outdoor,SC_crops,MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+	</append>
+
+<!--Farm Plot Voxel Terrain-->	
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxel">
+			<property name="Material" value="mFarmplot_Voxel"/>
+			<property name="CustomIcon" value="farmPlotBlock"/>
+			<property name="CustomIconTint" value="c48e84"/>
+			<property name="ItemTypeIcon" value="resource"/>
+			<property name="ItemTypeIconColor" value="128,256,128,255" />
+			<property name="UiBackgroundTexture" value="1"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Density" value="255"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+			<property name="Tags" value="earth"/>
+			<property name="DescriptionKey" value="x51FarmPlotVoxelBlockDesc"/>
+			<property name="FuelValue" value="0"/>
+			<property class="RepairItems">
+				<property name="resourceClayLump" value="3"/>
+			</property>
+			<drop event="Destroy" name="x51FarmPlotVoxelVariantHelper"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0000"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="farmPlotBlockPlayer"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelCornerRound">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="x51FarmPlotVoxel"/>
+			<property name="CustomIcon" value="farmPlotBlockCornerRound"/>
+			<property name="CustomIconTint" value="c48e84"/>
+			<property name="AltItemTypeIcon" value="resource"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0001"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="farmPlotBlockPlayerCornerRound"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelRaised">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="x51FarmPlotVoxel"/>
+			<property name="CustomIcon" value="farmPlotBlockRaised"/>
+			<property name="CustomIconTint" value="c48e84"/>
+			<property name="AltItemTypeIcon" value="resource"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0002"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="farmPlotBlockPlayerRaised"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="x51FarmPlotVoxelVariantHelper">
+			<property name="Extends" value="x51FarmPlotVoxel"/>
+			<property name="CustomIcon" value="farmPlotBlock"/>
+			<property name="CustomIconTint" value="c48e84"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SortOrder1" value="B965"/>
+			<property name="SortOrder2" value="0003"/>
+			<property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="x51FarmPlotVoxel,x51FarmPlotVoxelCornerRound,x51FarmPlotVoxelRaised"/>
+            <property name="FilterTags" value="MC_outdoor,SC_crops,MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+	</append>	
+	
+	
+
+</blocks>

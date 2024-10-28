@@ -1,0 +1,27 @@
+<configs>
+
+	<append xpath="/recipes">
+	
+		<recipe name="x51FarmPlotVoxelBlockVariantHelper" count="1" craft_time="1">
+			<ingredient name="farmPlotBlockVariantHelper" count="1"/>
+		</recipe>
+	
+<!--			
+		<recipe name="x51FarmPlotVoxelVariantHelper" count="1" craft_time="1">
+			<ingredient name="farmPlotBlockVariantHelper" count="1"/>
+		</recipe>
+		
+-->	
+<!--		
+		<recipe name="frameShapesVoxelBlock:VariantHelper" count="1" craft_time="1">
+			<ingredient name="frameShapes:VariantHelper" count="1"/>
+		</recipe>
+		
+		<recipe name="frameShapesVoxel:VariantHelper" count="1" craft_time="1">
+			<ingredient name="frameShapes:VariantHelper" count="1"/>
+		</recipe>
+-->		
+
+	</append>
+	
+</configs>

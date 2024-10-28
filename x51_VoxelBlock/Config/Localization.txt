@@ -1,0 +1,20 @@
+Key,File,Type,UsedInMainMenu,english
+x51FarmPlotVoxelBlock,blocks,Furniture,,Voxel Farm Plot Block.
+x51FarmPlotVoxelBlockCornerRound,blocks,Furniture,,Voxel Farm Plot Block Rounded.
+x51FarmPlotVoxelBlockRaised,blocks,Furniture,,Voxel Farm Plot Block Raised.
+x51FarmPlotVoxelBlockVariantHelper,blocks,Furniture,,Voxel Farm Plot Blocks.
+
+x51FarmPlotVoxel,blocks,Furniture,,Voxel Farm Plot.
+x51FarmPlotVoxelCornerRound,blocks,Furniture,,Voxel Farm Plot.
+x51FarmPlotVoxelRaised,blocks,Furniture,,Voxel Farm Plot.
+x51FarmPlotVoxelVariantHelper,blocks,Furniture,,Voxel Farm Plot.
+
+x51FarmPlotVoxelBlockDesc,blocks,Furniture,,Voxel farm plots that fit niceley with terrain.\nUpgrade with stone axe, hammer, or nailgun.
+
+
+
+
+
+
+
+
