@@ -1,0 +1,120 @@
+
+<configs>
+    <append xpath="/recipes">
+
+<!-- X51 - Hardened Chest  -->
+		<recipe name="cntHardenedChestX51SecureTE" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="16"/>
+        </recipe>
+
+<!-- X51 - Munitions Box  -->
+		<recipe name="cntMunitionsBoxX51VariantHelperTE" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+        </recipe>
+
+<!-- X51 - Millitary Ammo Pallets / Cans  -->
+		<recipe name="cntPalletCartonMilitaryBaseX51VariantHelperTE" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>	
+
+<!-- X51 - Gas Pump  -->		
+		<recipe name="cntGasPumpX51SecureTE" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+        </recipe>
+
+<!-- X51 - Mini Beverage Cooler  -->
+		<recipe name="cntMiniBeverageCoolerX51VariantHelperTE" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+        </recipe>	
+
+<!-- X51 - Utility Carts  -->
+		<recipe name="cntUtilityCartX51VariantHelperTE" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>	
+
+<!-- X51 - Cabinets / Cupboards All - Variant  -->
+        <recipe name="cntCabinetBlockX51VariantHelperSecureTE" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+<!-- X51 - Nightstand  -->
+        <recipe name="cntNightstandX51SecureTE" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+<!-- X51 - Metal Desk  -->
+        <recipe name="cntDeskMetalX51SecureTE" count="1" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+        </recipe>
+
+<!-- X51 - Wood Desk -->
+        <recipe name="cntDeskWoodX51SecureTE" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+<!-- X51 - Wood Desk -->		
+        <recipe name="cntBookcasePlayer" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+<!-- X51 - Lockers  -->
+        <recipe name="cntLockersX51VariantHelperSecureTE" count="1" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+        </recipe>
+
+<!-- X51 - Gun Racks  -->
+        <recipe name="cntGunRackX51VariantHelperSecureTE" count="1">
+            <ingredient name="resourceNail" count="10"/>
+            <ingredient name="resourceWood" count="10"/>
+            <ingredient name="resourceScrapIron" count="25"/>
+        </recipe>
+
+<!-- X51 - Book Case  -->
+        <recipe name="cntBookcaseX51SecureTE" count="1">
+            <ingredient name="resourceNail" count="20"/>
+            <ingredient name="resourceWood" count="30"/>
+        </recipe>
+
+<!-- X51 - Fridges  -->
+        <recipe name="cntFridgeX51VariantHelperSecureTE" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceMetalPipe" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+
+<!-- X51 - Pill Case -->		
+        <recipe name="cntPillCaseX51SecureTE" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+<!-- X51 - Small Safe -->
+        <recipe name="cntSmallSafeX51VariantHelperSecureTE" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+        </recipe>
+
+<!-- X51 - Gun Safe  -->
+        <recipe name="cntGunSafeX51VariantHelperSecureTE" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="50"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+        </recipe>
+		
+    </append>
+</configs>

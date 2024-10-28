@@ -1,0 +1,11 @@
+Adds more craftable storage to compliment Sams Storage Stuff.
+  - Gas pumps - To store gas and oil. 
+  - Beverage coolers - To store all things drinkable.
+  - Hardened Chest - It looks cool in certain spaces.
+  - Munitions Boxes - 4 color variants for storing Ammo and Explosives. 
+  - Military Ammo Pallets - Different variants
+  - Utility Carts - Different Colors, Empty, Full, and Janitor Carts Too!
+
+
+All storage is 9x10.
+Most storage items drop themselves on destroy, so you can destroy and place elsewhere. 

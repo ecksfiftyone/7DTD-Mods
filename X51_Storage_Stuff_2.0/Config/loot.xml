@@ -1,0 +1,68 @@
+
+<configs>
+    <append xpath="/lootcontainers">
+
+<!-- x51 Hardened Chest -->
+        <lootcontainer name="x51HardenedChestTE" count="1" size="9,10" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+	        <item name="cobweb" count="0"/>
+        </lootcontainer>  		
+
+<!-- x51 Beverage Cooler -->
+		<lootcontainer name="x51MiniBeverageCoolerTE" count="1" size="9,10" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+
+<!-- x51 Utility Cart -->
+		<lootcontainer name="x51UtilityCartTE" count="1" size="9,10" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+
+<!-- x51 Bookcase, Desk -->
+        <lootcontainer name="x51BookcaseTE" count="0" size="9,10" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="0"/>
+        </lootcontainer>
+        
+<!-- x51 Fridge -->
+        <lootcontainer name="x51FridgeTE" count="0" size="9,10" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="0"/>
+        </lootcontainer>
+        
+<!-- x51 Pillcase and Cupboards -->
+        <lootcontainer name="x51CupboardTE" count="0" size="9,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="0"/>
+        </lootcontainer>
+
+<!-- x51 Metal Desk -->
+        <lootcontainer name="x51MetalDeskTE" count="1" size="9,10" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="0"/>
+        </lootcontainer>
+
+<!-- x51 Lockers -->
+        <lootcontainer name="x51LockersTE" count="1" size="9,10" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="qualBaseTemplate">
+	        <item name="cobweb" count="0"/>
+        </lootcontainer>
+ 
+<!-- x51 Ammo Display --> 
+        <lootcontainer name="x51AmmoDisplayTE" count="1" size="9,10" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+	        <item name="cobweb" count="0"/>
+        </lootcontainer>   
+
+<!-- x51 Small Safes --> 
+		<lootcontainer name="x51SmallSafeTE" count="0" size="9,10" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+
+<!-- x51 GunSafe --> 
+		<lootcontainer name="x51GunSafeTE" count="0" size="8,10" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+    </append>
+	
+<!-- Slightly Larger Storage Crates-->
+	<set xpath='/lootcontainers/lootcontainer[@name="playerWoodWritableStorage"]/@size'>9,6</set> <!-- Default: 8,6 -->
+	<set xpath='/lootcontainers/lootcontainer[@name="playerIronWritableStorage"]/@size'>9,8</set> <!-- Default: 8,8 -->
+	<set xpath='/lootcontainers/lootcontainer[@name="playerSteelWritableStorage"]/@size'>9,10</set> <!-- Default: 8,10 -->
+	
+
+</configs>

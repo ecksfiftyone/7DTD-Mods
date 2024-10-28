@@ -1,0 +1,49 @@
+
+<configs>
+    <append xpath="/recipes">
+
+		<recipe name="modDyeWhite" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCropCottonPlant" count="1"/>
+		</recipe>
+		
+		<recipe name="modDyeBrown" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="foodCropMushrooms" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeRed" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeOrange" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeYellow" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeGreen" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeBlue" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="foodCropBlueberries" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+		</recipe>
+
+		<recipe name="modDyePurple" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="foodCropBlueberries" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeBlack" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceCoal" count="1"/>
+		</recipe>
+
+		<recipe name="modDyePink" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCropCottonPlant" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		</recipe>		
+    </append>
+</configs>

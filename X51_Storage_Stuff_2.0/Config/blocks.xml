@@ -1,0 +1,1118 @@
+
+<configs>
+    <append xpath="/blocks">
+
+<!-- X51 - Hardened Chest  -->
+		<block name="cntHardenedChestX51SecureTE">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51HardenedChestTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/tier4LootChestPrefab.prefab"/>
+			<property name="SortOrder1" value="B104"/>
+			<property name="SortOrder2" value="0005"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="60"/>	</property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="MC_building,SC_loot,MC_helpers,SC_treasureRoom"/>
+			<property name="ItemTypeIcon" value="lock"/>
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="DescriptionKey" value="x51StorageGroupDesc"/>			
+			<property name="ImposterExchange" value="imposterBlock" param1="115"/>
+			<property name="WaterFlow" value="permitted"/>	
+			<property name="AllowAllRotations" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="MaxDamage" value="7500"/>
+			<drop event="Destroy" name="cntHardenedChestX51SecureTE"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="Tags" value="safes,timecharge"/>		
+		</block>
+
+
+<!-- X51 - Munitions Box  -->
+		<block name="cntMunitionsBoxArmyX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51HardenedChestTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CustomIcon" value="cntMunitionsBoxArmy"/>
+			<property name="ItemTypeIcon" value="lock"/>
+			<property name="CustomIconTint" value="64785B"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/munitionsBox_01Prefab.prefab"/>
+			<property name="ImposterExchange" value="imposterHalf" param1="112"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="SortOrder1" value="B102"/>
+			<property name="SortOrder2" value="0010"/>
+			<property name="FilterTags" value="MC_building,SC_loot,MC_helpers,SC_treasureRoom"/>
+			<property class="RepairItems"> <property name="resourceForgedSteel" value="2"/> </property>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntMunitionsBoxX51VariantHelperTE"/>
+		</block>
+
+		<block name="cntMunitionsBoxRedX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51SecureTE"/>
+			<property name="CustomIconTint" value="B55950"/>
+			<property name="TintColor" value="B55950"/>
+			<property name="SortOrder1" value="B102"/>
+			<property name="SortOrder2" value="0011"/>
+		</block>
+
+		<block name="cntMunitionsBoxOrangeX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51SecureTE"/>
+			<property name="CustomIconTint" value="8A6C36"/>
+			<property name="TintColor" value="8A6C36"/>
+			<property name="SortOrder1" value="B102"/>
+			<property name="SortOrder2" value="0012"/>
+		</block>
+
+		<block name="cntMunitionsBoxGreenX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51SecureTE"/>
+			<property name="CustomIconTint" value="4A6F46"/>
+			<property name="TintColor" value="4A6F46"/>
+			<property name="SortOrder1" value="B102"/>
+			<property name="SortOrder2" value="0013"/>
+		</block>
+
+		<block name="cntMunitionsBoxBlueX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51SecureTE"/>
+			<property name="CustomIconTint" value="4D5C7A"/>
+			<property name="TintColor" value="4D5C7A"/>
+			<property name="SortOrder1" value="B102"/>
+			<property name="SortOrder2" value="0014"/>
+		</block>
+		
+        <block name="cntMunitionsBoxX51VariantHelperTE">
+            <property name="Extends" value="cntMunitionsBoxArmyX51SecureTE"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntMunitionsBoxArmyX51SecureTE,cntMunitionsBoxRedX51SecureTE,cntMunitionsBoxOrangeX51SecureTE,cntMunitionsBoxGreenX51SecureTE,cntMunitionsBoxBlueX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Millitary Ammo Pallets / Cans  -->
+		<block name="cntPalletCartonMilitaryBaseX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51HardenedChestTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CustomIcon" value="palletCartonMilitaryBase"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Industrial/palletCartonMilitaryBasePrefab"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntPalletCartonMilitaryBaseX51VariantHelperTE"/>
+			<property name="SortOrder1" value="B278"/>
+			<property name="SortOrder2" value="0500"/>
+			<property name="FilterTags" value="MC_building,SC_construction,SC_decor"/>
+		</block>
+
+		<block name="cntPalletCartonMilitaryCapX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntPalletCartonMilitaryBaseX51SecureTE"/>
+			<property name="CustomIcon" value="palletCartonMilitaryCap"/>
+			<property name="Model" value="Entities/Industrial/palletCartonMilitaryCapPrefab"/>
+			<property name="SortOrder2" value="0501"/>
+		</block>
+
+		<block name="cmtPalletCartonMilitaryTileX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntPalletCartonMilitaryBaseX51SecureTE"/>
+			<property name="CustomIcon" value="palletCartonMilitaryTile"/>
+			<property name="Model" value="Entities/Industrial/palletCartonMilitaryTilePrefab"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="SortOrder2" value="0502"/>
+		</block>
+
+		<block name="cntPalletCartonMilitaryTileCoveredX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntPalletCartonMilitaryBaseX51SecureTE"/>
+			<property name="CustomIcon" value="palletCartonMilitaryTileCovered"/>
+			<property name="Model" value="Entities/Industrial/palletCartonMilitaryTileCoveredPrefab"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="SortOrder2" value="0503"/>
+		</block>
+
+        <block name="cntPalletCartonMilitaryBaseX51VariantHelperTE">
+            <property name="Extends" value="cntPalletCartonMilitaryBaseX51SecureTE"/>
+			<property name="CustomIcon" value="palletCartonMilitaryTile"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntPalletCartonMilitaryCapX51SecureTE,cmtPalletCartonMilitaryTileX51SecureTE,cntPalletCartonMilitaryTileCoveredX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+		
+<!-- X51 - Gas Pump  -->
+		<block name="cntGasPumpX51SecureTE">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51HardenedChestTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CustomIcon" value="cntGasPumpFull"/>
+			<property name="ItemTypeIcon" value="lock"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Industrial/gasPumpFullPrefab"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Path" value="solid"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property class="RepairItems"> <property name="resourceForgedSteel" value="10"/> </property>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntGasPumpX51SecureTE"/>
+			<property name="SortOrder1" value="B477"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="FilterTags" value="MC_helpers,SC_loot,SC_helperCommercial"/>
+		</block>
+
+
+<!-- X51 - Mini Beverage Cooler  -->
+		<block name="cntMiniBeverageCoolerSecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51MiniBeverageCoolerTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CustomIcon" value="cntMiniBeverageCooler"/>
+			<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/miniBeverageCoolerPrefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="27"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+			<property name="Path" value="solid"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="EconomicValue" value="50"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="10"/>
+			</property>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntMiniBeverageCoolerX51VariantHelperTE"/>
+			<property name="SortOrder1" value="B477"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="FilterTags" value="MC_helpers,SC_loot,SC_helperCommercial"/>
+		</block>
+
+		<block name="cntMiniBeverageCoolerUnderCounterSecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntMiniBeverageCoolerSecureTE"/>
+			<property name="CustomIcon" value="cntMiniBeverageCooler"/>
+			<property name="ModelOffset" value="0,0,-1"/>
+			<property name="Model" value="Entities/Commercial/miniBeverageCoolerUnderCounterPrefab"/>
+			<property name="SortOrder2" value="0102"/>
+		</block>
+
+        <block name="cntMiniBeverageCoolerX51VariantHelperTE">
+            <property name="Extends" value="cntMiniBeverageCoolerSecureTE"/>
+			<property name="CustomIcon" value="cntMiniBeverageCooler"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntMiniBeverageCoolerSecureTE,cntMiniBeverageCoolerUnderCounterSecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+		
+<!-- X51 - Utility Carts Empty  -->
+	<!-- White, Empty, Secure -->
+		<block name="cntUtilityCartEmptyX51SecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51UtilityCartTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntUtilityCartEmptyWhite"/>
+			<property name="CustomIconTint" value="CCCCCC"/>
+			<property name="TintColor" value="CCCCCC"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mplastics"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/utilityCartEmptyPrefab.prefab"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="20"/>
+			</property>
+			<property name="DestroyFX" value="blockdestroy_cloth,plasticdestroy"/>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntUtilityCartPlayerX51VariantHelperTE"/>
+			<property name="SortOrder1" value="B113"/>
+			<property name="SortOrder2" value="1200"/>
+			<property name="FilterTags" value="MC_building,SC_loot,SC_commercial,SC_industrial"/>
+			<property name="Tags" value="challenge_polymers,challenge_mech_parts"/>
+			<property name="IndexName" value="challenge_polymers"/>
+		</block>
+
+	<!-- Brown, Empty, Secure -->
+		<block name="cntUtilityCartEmptyBrownX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="6B5B47"/>
+			<property name="TintColor" value="6B5B47"/>
+			<property name="SortOrder2" value="1201"/>
+		</block>
+
+	<!-- Red, Empty, Secure -->
+		<block name="cntUtilityCartEmptyRedX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="72433F"/>
+			<property name="TintColor" value="72433F"/>
+			<property name="SortOrder2" value="1202"/>
+		</block>
+
+	<!-- Yellow, Empty, Secure -->
+		<block name="cntUtilityCartEmptyYellowX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="9A9673"/>
+			<property name="TintColor" value="9A9673"/>
+			<property name="SortOrder2" value="1204"/>
+		</block>
+
+	<!-- Green, Empty, Secure -->
+		<block name="cntUtilityCartEmptyGreenX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="586D5A"/>
+			<property name="TintColor" value="586D5A"/>
+			<property name="SortOrder2" value="1205"/>
+		</block>
+
+	<!-- Blue, Empty, Secure -->
+		<block name="cntUtilityCartEmptyBlueX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="45686B"/>
+			<property name="TintColor" value="45686B"/>
+			<property name="SortOrder2" value="1206"/>
+		</block>
+
+	<!-- Grey, Empty, Secure -->
+		<block name="cntUtilityCartEmptyGreyX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="6C6C6C"/>
+			<property name="TintColor" value="6C6C6C"/>
+			<property name="SortOrder2" value="1208"/>
+		</block>
+
+	<!-- Black, Empty, Secure -->
+		<block name="cntUtilityCartEmptyBlackX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIconTint" value="2E2E2E"/>
+			<property name="TintColor" value="2E2E2E"/>
+			<property name="SortOrder2" value="1209"/>
+		</block>
+
+	
+<!-- X51 - Utility Carts Full  -->
+	<!-- White, Full, Secure -->
+		<block name="cntUtilityCartFullX51SecureTE">
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntUtilityCartFullWhite"/>
+			<property name="Model" value="@:Entities/LootContainers/utilityCartFullPrefab.prefab"/>
+			<dropextendsoff/>
+			<drop event="Destroy" name="cntUtilityCartPlayerX51VariantHelperTE"/>
+			<property name="SortOrder2" value="1300"/>
+		</block>
+
+	<!-- Brown, Full, Secure -->
+		<block name="cntUtilityCartFullBrownX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="6B5B47"/>
+			<property name="TintColor" value="6B5B47"/>
+			<property name="SortOrder2" value="1301"/>
+		</block>
+
+	<!-- Red, Full, Secure -->
+		<block name="cntUtilityCartFullRedX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="72433F"/>
+			<property name="TintColor" value="72433F"/>
+			<property name="SortOrder2" value="1302"/>
+		</block>
+
+	<!-- Yellow, Full, Secure -->
+		<block name="cntUtilityCartFullYellowX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="9A9673"/>
+			<property name="TintColor" value="9A9673"/>
+			<property name="SortOrder2" value="1304"/>
+		</block>
+
+	<!-- Green, Full, Secure -->
+		<block name="cntUtilityCartFullGreenX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="586D5A"/>
+			<property name="TintColor" value="586D5A"/>
+			<property name="SortOrder2" value="1305"/>
+		</block>
+
+	<!-- Blue, Full, Secure -->
+		<block name="cntUtilityCartFullBlueX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="45686B"/>
+			<property name="TintColor" value="45686B"/>
+			<property name="SortOrder2" value="1306"/>
+		</block>
+
+	<!-- Grey, Full, Secure -->
+		<block name="cntUtilityCartFullGreyX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="6C6C6C"/>
+			<property name="TintColor" value="6C6C6C"/>
+			<property name="SortOrder2" value="1308"/>
+		</block>
+
+	<!-- Black, Full, Secure -->
+		<block name="cntUtilityCartFullBlackX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+			<property name="CustomIconTint" value="2E2E2E"/>
+			<property name="TintColor" value="2E2E2E"/>
+			<property name="SortOrder2" value="1309"/>
+		</block>
+		
+<!-- X51 - Janitor Carts -->
+		<block name="cntJanitorCartFullX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIcon" value="cntJanitorCartFull"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Model" value="Entities/Commercial/janitorCartPrefab"/>
+			<property name="ModelOffset" value="-0.5,0,0"/>
+			<property name="OversizedBounds" value="(-0.5,0,0),(2,1,1)"/>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntUtilityCartX51VariantHelperTE"/>
+			<property name="SortOrder2" value="1500"/>
+		</block>
+
+		<block name="cntJanitorCartEmptyX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51SecureTE"/>
+			<property name="CustomIcon" value="cntJanitorCartEmpty"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Model" value="Entities/Commercial/janitorCartEmptyPrefab"/>
+			<property name="ModelOffset" value="-0.5,0,0"/>
+			<property name="OversizedBounds" value="(-0.5,0,0),(2,1,1)"/>
+			<property name="SortOrder1" value="B113"/>
+			<property name="SortOrder2" value="1501"/>
+		</block>
+
+<!-- X51 - Utility and Janitor Carts All - Variant  -->
+
+	<!-- Variant, Secure -->
+        <block name="cntUtilityCartX51VariantHelperTE">
+            <property name="Extends" value="cntUtilityCartFullX51SecureTE"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntUtilityCartEmptyX51SecureTE,cntUtilityCartEmptyBrownX51SecureTE,cntUtilityCartEmptyRedX51SecureTE,cntUtilityCartEmptyYellowX51SecureTE,cntUtilityCartEmptyGreenX51SecureTE,cntUtilityCartEmptyBlueX51SecureTE,cntUtilityCartEmptyGreyX51SecureTE,cntUtilityCartEmptyBlackX51SecureTE,cntUtilityCartFullX51SecureTE,cntUtilityCartFullBrownX51SecureTE,cntUtilityCartFullRedX51SecureTE,cntUtilityCartFullYellowX51SecureTE,cntUtilityCartFullGreenX51SecureTE,cntUtilityCartFullBlueX51SecureTE,cntUtilityCartFullGreyX51SecureTE,cntUtilityCartFullBlackX51SecureTE,cntJanitorCartFullX51SecureTE,cntJanitorCartEmptyX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Cabinets / Cupboards All - Variant  -->
+        <block name="cntCabinetBottomX51SecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51CupboardTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="Material" value="MwoodReinforced"/> 
+            <property name="CustomIcon" value="cntCabinetBottomFiller"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/> 
+            <property name="Shape" value="New"/>
+            <property name="Model" value="counter"/> 
+            <property name="Texture" value="261,345,262,345,345,345"/>
+            <property name="UseGlobalUV" value="Local"/>
+            <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="MaxDamage" value="2000"/>
+            <drop event="Destroy" name="cntCabinetBlockX51VariantHelperSecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="IsDecoration" value="true"/>
+            <property name="EconomicValue" value="17"/>
+            <property name="EconomicBundleSize" value="20"/>
+        </block>
+
+        <block name="cntCupboardCabinetRedTopX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCupboardCabinetRedTopLootHelper"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="cupboard"/> 
+            <property name="Texture" value="345,345,263,345,345,345"/>
+        </block>
+
+        <block name="cntCupboardCornerCNRRedX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCupboardCornerCNRRed"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="cupboard_corner"/> 
+            <property name="Texture" value="345,345,263,345,345,345"/>
+        </block>
+
+        <block name="cntCupboardCabinetFullRedTopX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCupboardCabinetFullRedTopClosed"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="cube"/> 
+            <property name="Texture" value="345,345,263,345,345,345"/>
+        </block>
+
+        <block name="cntCabinetOldBottomX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCabinetOldBottomLootHelper"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Texture" value="78,84,79,84,84,84"/>
+        </block>
+        
+        <block name="cntGraniteSinkX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCabinetGraniteSinkHoleRound"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="counter_sink_hole_round"/> 
+            <property name="Texture" value="373,261,262,345,345,345"/>
+        </block>
+
+        <block name="cntCupboardCabinetOldTopX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCupboardCabinetOldTopLootHelper"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="cupboard"/> 
+            <property name="Texture" value="84,84,81,84,84,84"/>
+        </block>
+
+        <block name="cntCupboardCornerCNROldX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCupboardCornerCNROld"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="cupboard_corner"/> 
+            <property name="Texture" value="84,84,81,84,84,84"/>
+        </block>
+
+        <block name="cntCupboardCabinetFullOldTopX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCupboardCabinetFullOldTopClosed"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="cube"/> 
+            <property name="Texture" value="84,84,81,84,84,84"/>
+        </block>
+
+        <block name="cntCabinetOldSinkX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCabinetGraniteSinkHoleRound"/> 
+            <property name="CustomIconTint" value="555555"/>
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="counter_sink_hole_round"/> 
+            <property name="Texture" value="374,78,79,84,84,84"/>
+        </block>
+
+        <block name="cntCabinetBlockX51VariantHelperSecureTE">
+            <property name="Extends" value="cntCabinetBottomX51SecureTE"/>
+            <property name="CustomIcon" value="cntCabinetBottomFiller"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntCabinetBottomX51SecureTE,cntCupboardCabinetRedTopX51SecureTE,cntCupboardCornerCNRRedX51SecureTE,cntCupboardCabinetFullRedTopX51SecureTE,cntGraniteSinkX51SecureTE,cntCabinetOldBottomX51SecureTE,cntCupboardCabinetOldTopX51SecureTE,cntCupboardCornerCNROldX51SecureTE,cntCupboardCabinetFullOldTopX51SecureTE,cntCabinetOldSinkX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Nightstand  -->
+        <block name="cntNightstandX51SecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51BookcaseTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Material" value="MwoodReinforced"/>
+            <property name="CustomIcon" value="cntNightstandClosed"/>
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/nightStand_closedPrefab.prefab"/>
+            <property name="UseGlobalUV" value="Local"/>
+            <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="MaxDamage" value="2000"/>
+            <drop event="Destroy" name="cntNightstandX51SecureTE"/>
+            <property name="FilterTags" value="MC_building,SC_loot"/>
+            <property name="SortOrder2" value="0060"/> <!-- SortShape -->
+        </block>
+
+<!-- X51 - Metal Desk  -->
+        <block name="cntDeskMetalX51SecureTE">
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="CustomIconTint" value="A09F94"/>
+	        <property name="TintColor" value="A09F94"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51MetalDeskTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>   
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/deskMetalFullPrefab.prefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="2,1,1"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="161"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="3"/>
+            </property>
+            <property name="EconomicValue" value="570"/>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntDeskMetalX51SecureTE"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+
+<!-- X51 - Wood Desk -->
+		<block name="cntDeskWoodX51SecureTE">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51CupboardTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>   
+			<property name="CustomIcon" value="cntDeskWoodFull"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Material" value="Mwood_weak"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/deskWoodFullPrefab.prefab"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="81"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="AllowedRotations" value="No45"/>
+			<property name="Path" value="solid"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="FuelValue" value="300"/>
+			<property name="EconomicValue" value="15"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="15"/>
+			</property>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntDeskWoodX51SecureTE"/>
+			<property name="SortOrder1" value="B406"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="FilterTags" value="MC_helpers,SC_loot"/>
+		</block>
+
+		
+<!-- X51 - Lockers  -->
+        <block name="cntLockersShortX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="cntLockersShortClosed"/>
+            <property name="ItemTypeIcon" value="lock"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51LockersTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>     
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/locker_ver3_lootPrefab.prefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="2"/>
+            </property>
+            <property name="EconomicValue" value="200"/>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntLockersX51VariantHelperSecureTE"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+
+        <block name="cntLockersTallX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntLockersShortX51SecureTE"/>
+            <property name="CustomIcon" value="cntLockersTallClosed"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="DisplayType" value="blockMulti"/>
+	        <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="Model" value="@:Entities/LootContainers/locker_ver1_lootPrefab.prefab"/>
+        </block>
+
+        <block name="cntLockersTallDoubleX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntLockersShortX51SecureTE"/>
+            <property name="CustomIcon" value="cntLockersTallDoubleClosed"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="DisplayType" value="blockMulti"/>
+	        <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="Model" value="@:Entities/LootContainers/locker_ver2_lootPrefab.prefab"/>
+        </block>
+
+        <block name="cntLockersX51VariantHelperSecureTE">
+            <property name="Extends" value="cntLockersShortX51SecureTE"/>
+            <property name="CustomIcon" value="cntLockersShortClosed"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntLockersShortX51SecureTE,cntLockersTallX51SecureTE,cntLockersTallDoubleX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Gun Racks  -->
+        <block name="cntGunRackSmallArmorX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="cntGunRackSmallArmor"/>
+            <property name="ItemTypeIcon" value="lock"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51AmmoDisplayTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>       
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="Entities/Commercial/gunrackWallVestPrefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="2"/>
+            </property>
+            <property name="EconomicValue" value="200"/>
+			<property name="MaxDamage" value="2000"/>
+			<drop event="Destroy" name="cntGunRackX51VariantHelperSecureTE"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+
+        <block name="cntGunRackSmallMagazinesX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunRackSmallArmorX51SecureTE"/>
+            <property name="CustomIcon" value="cntGunRackSmallMagazines"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Model" value="Entities/Commercial/gunrackWallMagPrefab"/>
+        </block>
+
+        <block name="cntGunRackLargeGuns01X51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunRackSmallArmorX51SecureTE"/>
+            <property name="CustomIcon" value="cntGunRackLargeGuns01"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+	        <property name="DisplayType" value="blockMulti"/>
+            <property name="Model" value="Entities/Commercial/gunrackWallGunsAPrefab"/>
+        </block>
+
+        <block name="cntGunRackLargeGuns02X51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunRackSmallArmorX51SecureTE"/>
+            <property name="CustomIcon" value="cntGunRackLargeGuns02"/> 
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+	        <property name="DisplayType" value="blockMulti"/>
+            <property name="Model" value="Entities/Commercial/gunrackWallGunsBPrefab"/>
+        </block>
+
+        <block name="cntGunRackX51VariantHelperSecureTE">
+            <property name="Extends" value="cntGunRackSmallArmorX51SecureTE"/>
+            <property name="CustomIcon" value="cntGunRackSmallArmor"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntGunRackSmallArmorX51SecureTE,cntGunRackSmallMagazinesX51SecureTE,cntGunRackLargeGuns01X51SecureTE,cntGunRackLargeGuns02X51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Book Case  -->
+        <block name="cntBookcaseX51SecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51BookcaseTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>    
+            <property name="CreativeMode" value="Player"/>
+            <property name="Material" value="MwoodReinforced"/>
+            <property name="CustomIcon" value="cntBookcaseFull"/>
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="Shape" value="New"/>
+            <property name="Model" value="bookcase_full"/> <property name="Place" value="TowardsPlacer90"/>
+            <property name="Texture" value="67,269,269,269,269,269"/>
+            <property name="UseGlobalUV" value="Local"/>
+            <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="MaxDamage" value="2000"/>
+            <drop event="Destroy" name="cntBookcaseX51SecureTE"/>
+            <property name="FilterTags" value="MC_building,SC_loot"/>
+            <property name="SortOrder2" value="0060"/> <!-- SortShape -->
+        </block>
+
+<!-- X51 - Fridges  -->
+        <block name="cntRetroFridgeX51SecureTE">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="Material" value="Mmetal"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51FridgeTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>  
+            <property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="Entities/Appliances/fridgeRetroClosedPrefab" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="27"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="10"/>
+                <property name="resourceMetalPipe" value="2"/>
+                <property name="resourceElectricParts" value="10"/>
+            </property>
+			<property name="MaxDamage" value="2000"/>
+            <drop event="Destroy" name="cntFridgeX51VariantHelperSecureTE"/>
+            <property name="EconomicValue" value="192"/>
+            <property name="FilterTags" value="MC_building,SC_loot"/>
+        </block>
+
+
+        <block name="cntFridgeStainlessSteelX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+            <property name="Extends" value="cntRetroFridgeX51SecureTE"/>
+            <property name="Model" value="Entities/Appliances/fridgeStainlessSteelClosedPrefab" param1="main_mesh"/>
+            <property name="CustomIcon" value="cntFridgeStainlessSteel"/>
+            <property name="ItemTypeIcon" value="lock"/>
+        </block>
+
+        <block name="cntFridgeX51VariantHelperSecureTE">
+            <property name="Extends" value="cntRetroFridgeX51SecureTE"/>
+            <property name="CustomIcon" value="cntFridgeStainlessSteel"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntRetroFridgeX51SecureTE,cntFridgeStainlessSteelX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - Pill Case -->
+        <block name="cntPillCaseX51SecureTE">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51CupboardTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>  
+            <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/pill_case_closedPrefab.prefab"/>
+            <property name="CustomIcon" value="cntPillCaseClosed"/>
+            <property name="ItemTypeIcon" value="lock"/>
+            <property name="SortOrder2" value="0060"/> <!-- SortShape -->
+            <property name="Place" value="TowardsPlacer90"/>
+            <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="MaxDamage" value="2000"/>
+            <drop event="Destroy" name="cntPillCaseX51SecureTE"/>
+            <property name="FilterTags" value="MC_building,SC_loot"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+        </block>
+
+<!-- X51 - Small Safes -->
+		<block name="cntWallSafeX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51SmallSafeTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="DescriptionKey" value="x51StorageGroupDesc"/>
+			<property name="CustomIcon" value="cntWallSafe"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/safeMetalWallClosePrefab.prefab"/>
+			<property name="HandleFace" value="South"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="EconomicValue" value="300"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="15"/>
+			</property>
+			<drop event="Destroy" name="cntWallSafeX51SecureTE"/>
+			<property name="SortOrder1" value="B101"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="Tags" value="safes,timecharge,lockedSafe"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+		<block name="cntDeskSafeX51SecureTE">
+			<property name="Extends" value="cntWallSafeX51SecureTE"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntWallSafe"/>
+			<property name="Model" value="@:Entities/LootContainers/safeMetalDeskClosePrefab.prefab"/>
+			<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+        <block name="cntSmallSafeX51VariantHelperSecureTE">
+            <property name="Extends" value="cntWallSafeX51SecureTE"/>
+            <property name="CustomIcon" value="cntWallSafe"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntWallSafeX51SecureTE,cntDeskSafeX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+
+<!-- X51 - GunSafes -->
+		<block name="cntGunSafeX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51GunSafeTE"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="CustomIcon" value="cntGunSafeWhite"/>
+			<property name="CustomIconTint" value="404040"/>
+			<property name="TintColor" value="404040"/>
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/safeGunLargeFullPrefab.prefab"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="18"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="EconomicValue" value="690"/>
+			<property name="MaxDamage" value="5000"/>
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="30"/>
+			</property>
+			<drop event="Destroy" name="cntGunSafeX51VariantHelperSecureTE"/>
+			<property name="SortOrder1" value="B101"/>
+			<property name="SortOrder2" value="0509"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="Tags" value="safes,timecharge,lockedSafe"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+		<!-- White -->
+		<block name="cntGunSafeWhiteX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="A0A0A0"/>
+			<property name="TintColor" value="A0A0A0"/>
+			<property name="SortOrder2" value="0500"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="cntGunSafeBrownX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="726858"/>
+			<property name="TintColor" value="726858"/>
+			<property name="SortOrder2" value="0501"/>
+		</block>
+
+		<!-- Red -->
+		<block name="cntGunSafeRedX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="8C6B71"/>
+			<property name="TintColor" value="8C6B71"/>
+			<property name="SortOrder2" value="0502"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="cntGunSafeOrangeX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="91715D"/>
+			<property name="TintColor" value="91715D"/>
+			<property name="SortOrder2" value="0503"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="cntGunSafeYellowX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="8C8864"/>
+			<property name="TintColor" value="8C8864"/>
+			<property name="SortOrder2" value="0504"/>
+		</block>
+
+		<!-- Green -->
+		<block name="cntGunSafeGreenX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="68796A"/>
+			<property name="TintColor" value="68796A"/>
+			<property name="SortOrder2" value="0505"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="cntGunSafeBlueX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="707C81"/>
+			<property name="TintColor" value="707C81"/>
+			<property name="SortOrder2" value="0506"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="cntGunSafePurpleX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="6A6572"/>
+			<property name="TintColor" value="6A6572"/>
+			<property name="SortOrder2" value="0507"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="cntGunSafeGreyX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="808080"/>
+			<property name="TintColor" value="808080"/>
+			<property name="SortOrder2" value="0508"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="cntGunSafePinkX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="887C89"/>
+			<property name="TintColor" value="887C89"/>
+			<property name="SortOrder2" value="0510"/>
+		</block>
+
+		<!-- ArmyGreen -->
+		<block name="cntGunSafeArmyGreenX51SecureTE">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="cntGunSafeX51SecureTE"/>
+			<property name="CustomIconTint" value="465448"/>
+			<property name="TintColor" value="465448"/>
+			<property name="SortOrder2" value="0511"/>
+		</block>
+		
+        <block name="cntGunSafeX51VariantHelperSecureTE">
+            <property name="Extends" value="cntGunSafeX51SecureTE"/>
+            <property name="CustomIcon" value="cntGunSafeWhite"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="x51StorageGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="cntGunSafeX51SecureTE,cntGunSafeWhiteX51SecureTE,cntGunSafeBrownX51SecureTE,cntGunSafeRedX51SecureTE,cntGunSafeOrangeX51SecureTE,cntGunSafeYellowX51SecureTE,cntGunSafeGreenX51SecureTE,cntGunSafeBlueX51SecureTE,cntGunSafePurpleX51SecureTE,cntGunSafeGreyX51SecureTE,cntGunSafePinkX51SecureTE,cntGunSafeArmyGreenX51SecureTE"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+		
+    </append>
+</configs>
