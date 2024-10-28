@@ -1,0 +1,124 @@
+<configs>
+
+	<append xpath="item_modifiers">	
+
+		<item_modifier name="modGunSuperSilencer" installable_tags="gun" modifier_tags="barrelAttachment" blocked_tags="noMods,noSilencer" type="attachment">
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="CustomIcon" value="modGunBarrelExtender"/>
+			<property name="CustomIconTint" value="d37dbe"/>
+			<property name="EconomicValue" value="10000"/>
+			<!-- <property name="UnlockedBy" value="modGunSuperSilencerSchematic"/> -->
+			<property name="TraderStageTemplate" value="modsTier3"/>
+			<item_property_overrides name="*">
+				<property name="Sound_start" value="pistol_s_fire"/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_loop" value="pistol_s_fire"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunHandgunT0PipePistol">
+				<property name="Sound_start" value="pistol_s_fire"/>
+				<property name="Sound_loop" value="pistol_s_fire"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunHandgunT1Pistol">
+				<property name="Sound_start" value="pistol_s_fire"/>
+				<property name="BarrelOffset" value="0,-.006,.127"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunHandgunT3SMG5">
+				<property name="Sound_start" value="smg_s_fire"/>
+				<property name="Sound_end" value="silencefiller"/>
+				<property name="Sound_loop" value="smg_s_fire"/>
+				<property name="BarrelOffset" value="0,0,0"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunHandgunT2Magnum44">
+				<property name="Sound_start" value="pump_shotgun_s_fire"/>
+				<property name="BarrelOffset" value="0,.028,.165"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunHandgunT3DesertVulture">
+				<property name="Sound_start" value="pump_shotgun_s_fire"/>
+				<property name="Sound_loop" value="pump_shotgun_s_fire"/>
+				<property name="BarrelOffset" value="0,0,0"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunShotgunT1DoubleBarrel">
+				<property name="Sound_start" value="pump_shotgun_s_fire"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunShotgunT2PumpShotgun">
+				<property name="Sound_start" value="pump_shotgun_s_fire"/>
+				<property name="BarrelOffset" value="0,-.0322,.4516"/>
+				<property name="BarrelScale" value="1.1,1.1,1.5"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunShotgunT3AutoShotgun">
+				<property name="Sound_start" value="pump_shotgun_s_fire"/>
+				<property name="Sound_loop" value="pump_shotgun_s_fire"/>
+				<property name="BarrelOffset" value="0,-.0322,.4516"/>
+				<property name="BarrelScale" value="1.1,1.1,1.5"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunRifleT1HuntingRifle">
+				<property name="Sound_start" value="hunting_rifle_s_fire"/>
+				<property name="BarrelOffset" value="0,-.009,.551"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunRifleT2LeverActionRifle">
+				<property name="Sound_start" value="sniperrifle_s_fire"/>
+				<property name="Sound_loop" value="sniperrifle_s_fire"/>
+				<property name="BarrelOffset" value="0,-.02,.2182"/>
+				<property name="BarrelScale" value=".88,.88,.88"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunRifleT3SniperRifle">
+				<property name="Sound_start" value="sniperrifle_s_fire"/>
+				<property name="Sound_loop" value="sniperrifle_s_fire"/>
+				<property name="BarrelOffset" value="0,-.02,.2182"/>
+				<property name="BarrelScale" value=".88,.88,.88"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunMGT1AK47">
+				<property name="Sound_start" value="ak47_s_fire"/>
+				<property name="Sound_end" value="silencefiller"/>
+				<property name="Sound_loop" value="ak47_s_fire"/>
+				<property name="BarrelOffset" value="-.001,-.0197,.3197"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunMGT2TacticalAR">
+				<property name="Sound_start" value="ak47_s_fire"/>
+				<property name="Sound_end" value="silencefiller"/>
+				<property name="Sound_loop" value="ak47_s_fire"/>
+				<property name="BarrelOffset" value="0,.005,.275"/>
+				<property name="BarrelScale" value="1,1,1"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunMGT3M60">
+				<property name="Sound_start" value="m60_s_fire"/>
+				<property name="Sound_end" value="silencefiller"/>
+				<property name="Sound_loop" value="m60_s_fire"/>
+				<property name="BarrelOffset" value="0,-.005,.31"/>
+			</item_property_overrides>
+
+			<item_property_overrides name="gunMGT0PipeMachineGun">
+				<property name="Sound_start" value="smg_s_fire"/>
+				<property name="Sound_end" value="silencefiller"/>
+				<property name="Sound_loop" value="smg_s_fire"/>
+			</item_property_overrides>
+			
+			<effect_group tiered="false">
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value=".5"/>
+				<passive_effect name="MaxRange" operation="perc_add" value=".5"/>
+			</effect_group>
+		</item_modifier>
+
+	</append>
+	
+</configs>

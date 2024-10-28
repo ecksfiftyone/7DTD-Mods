@@ -1,0 +1,3 @@
+Key,english
+modGunSuperSilencer,Super Silencer
+modGunSuperSilencerDesc,"Combines the barrel extender and silencer for increased range and reduced noise."

@@ -1,0 +1,6 @@
+Adds OP silencer effects. 
+- The silencer is much more silent now. 
+
+Adds a Super Silencer
+- Super Silencer combines the silencer and barrel extender to increase range AND reduce noise. 
+- Only at Traders - Very expensive. 

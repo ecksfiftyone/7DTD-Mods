@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="X51BetterSilencer" />
+    <DisplayName value="x51 - Better Silencer" />
+    <Version value="1.21.0.0" />
+    <Description value="Reduces the sound the zombies hear. Allows much better stealth with handguns and rifles. Adds A Super Silencer which also increases range" />
+    <Author value="x51" />
+    <Website value="" />
+</xml>

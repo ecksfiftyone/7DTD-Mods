@@ -1,0 +1,7 @@
+<configs>
+
+	<append xpath="//trader_item_group[@name='groupRangedMods']">
+		<item name="modGunSuperSilencer"/>
+	</append>
+	
+</configs>
