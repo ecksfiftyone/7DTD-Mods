@@ -1,0 +1,7 @@
+<configs>
+
+       <set xpath="/blocks/block[@name='shotgunTurret']/property[@name='AmmoItem']/@value">ammoShotgunShell,ammoShotgunSlug</set>
+	   <set xpath="/blocks/block[@name='autoTurret']/property[@name='AmmoItem']/@value">ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP</set>
+  
+	
+</configs>

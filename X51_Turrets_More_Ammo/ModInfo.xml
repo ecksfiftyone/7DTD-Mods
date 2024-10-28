@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="X51TurretsMoreAmmo" />
+    <DisplayName value="x51 - Turrets More Ammo" />
+    <Version value="1.21.0.0" />
+    <Description value="SMG Turrets use all 9mm, 44, and 7.62 ammo, Shotgun turrets use shells and slugs." />
+    <Author value="x51" />
+    <Website value="" />
+</xml>

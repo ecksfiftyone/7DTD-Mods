@@ -1,0 +1,3 @@
+Allows SMG Turrets to use all 9mm, 44, and 7.62 ammo. 
+Allows Shotgun Turrets to use Slugs.
+
