@@ -1,0 +1,24 @@
+
+<config>
+
+<!-- Version 1.1.B14 Defaults - [Values are Day, Night] [Most Values are between 0 (least) and 1 (most)] -->
+ 
+
+	<set xpath="/worldglobal/environment/property[@name='ambientEquatorScale']/@value">.4, .2</set> <!-- Changed! Default (1.1.14) .7, .45 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientGroundScale']/@value">.2, 0</set> <!-- Changed! Default (1.1.14) .3, .05 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientSkyScale']/@value">.5, .1</set>    <!-- Changed! Default (1.1.14) 1, .7 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientSkyDesat']/@value">.7, .7</set> <!-- Default (1.1.14) .7, .7 -->
+	
+	<set xpath="/worldglobal/environment/property[@name='ambientMoon']/@value">.1, .02</set> <!-- Changed! Default (1.1.14) .9, .3 -->
+
+	<set xpath="/worldglobal/environment/property[@name='ambientInsideSpeed']/@value">.4</set> <!-- Changed! Default (1.1.14) .3 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientInsideThreshold']/@value">.02</set> <!-- Changed! Default (1.1.14) .2 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientInsideEquatorScale']/@value">.2, .5</set> <!-- Changed! Default (1.1.14) .55, 1.5 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientInsideGroundScale']/@value">.2, .05</set> <!-- Changed! Default (1.1.14) .2, .2 -->
+	<set xpath="/worldglobal/environment/property[@name='ambientInsideSkyScale']/@value">.2, .1</set> <!-- Changed! Default (1.1.14) .8, .4 -->
+	
+	<set xpath="/worldglobal/environment/property[@name='fogPower']/@value">.8, .8</set> <!-- Changed! Default (1.1.14) 1, 1 -->
+	<set xpath="/worldglobal/environment/property[@name='fogWater']/@value">.47, .2</set> <!-- Default (1.1.14) .47, .2 -->
+	<set xpath="/worldglobal/environment/property[@name='fogWaterColor']/@value">.38, .42, .38</set> <!-- Default (1.1.14) .38, .42, .38 -->
+
+</config>
