@@ -1,0 +1,17 @@
+Key,File,Type,UsedInMainMenu,english
+x51SmallClayLump,blocks,Furniture,,Clay Lump (1 Unit).
+x51SmallCrushedSand,blocks,Furniture,,Crushed Sand (1 Unit).
+x51SmallRock,blocks,Furniture,,Stone (1 Unit).
+
+x51SmallClayLumpDesc,blocks,Furniture,,Single Unit of Clay \nThis is useful for making forge count 100% full of a material.
+x51SmallCrushedSandDesc,blocks,Furniture,,Single Unit of Sand \nThis is useful for making forge count 100% full of a material.
+x51SmallRockDesc,blocks,Furniture,,Single Unit of Stone \nThis is useful for making forge count 100% full of a material.
+
+
+
+
+
+
+
+
+

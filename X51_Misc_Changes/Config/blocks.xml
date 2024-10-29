@@ -1,0 +1,19 @@
+
+<configs>
+
+<!-- Move faster on ladders -->
+
+	<append xpath="/blocks/block[@name='ladderWood']">
+		<property name="MovementFactor" value="2.0"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderMetal']">
+		<property name="MovementFactor" value="2.0"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderSteel']">
+		<property name="MovementFactor" value="2.0"/>
+	</append>
+
+	
+</configs>

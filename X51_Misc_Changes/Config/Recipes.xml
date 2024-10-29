@@ -1,0 +1,89 @@
+<configs>
+	
+<!-- #####  Edit Recipies ##### -->
+
+    <append xpath="/recipes/recipe[@name='ammoShotgunShell']">
+    	<ingredient name="resourceScrapPolymers" count="1"/>
+    </append>
+ 
+    <append xpath="/recipes">
+	
+        <recipe name="barbedWireSheet" count="5">
+            <ingredient name="resourceScrapIron" count="10"/>
+            <ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceForgedSteel" count="1"/>
+        </recipe>
+
+<!-- #####   Small Resources to balance forge numbers -->
+        <recipe name="x51SmallCrushedSand" count="4">
+            <ingredient name="resourceCrushedSand" count="1"/>
+        </recipe>
+
+        <recipe name="x51SmallRock" count="5">
+            <ingredient name="resourceRockSmall" count="1"/>
+        </recipe>
+
+        <recipe name="x51SmallClayLump" count="5">
+            <ingredient name="resourceClayLump" count="1"/>
+        </recipe>	
+		
+	</append>
+
+<!-- #####   Convert Ammo into AP / HP -->
+
+    <append xpath="/recipes">
+	
+  <!-- ## 9MM -->	
+        <recipe name="ammo9mmBulletHP" count="1" craft_time="1">
+            <ingredient name="ammo9mmBulletBall" count="2"/>
+        </recipe>
+
+        <recipe name="ammo9mmBulletAP" count="1" craft_time="1">
+            <ingredient name="ammo9mmBulletBall" count="2"/>
+        </recipe>
+
+        <recipe name="ammoBundle9mmBulletHP" count="1" craft_time="10">
+            <ingredient name="ammo9mmBulletBall" count="200"/>
+        </recipe>
+
+        <recipe name="ammoBundle9mmBulletAP" count="1" craft_time="10">
+            <ingredient name="ammo9mmBulletBall" count="200"/>
+        </recipe>
+
+  <!-- ## 44 Magnum -->
+        <recipe name="ammo44MagnumBulletHP" count="1" craft_time="1">
+            <ingredient name="ammo44MagnumBulletBall" count="2"/>
+        </recipe>
+
+        <recipe name="ammo44MagnumBulletAP" count="1" craft_time="1">
+            <ingredient name="ammo44MagnumBulletBall" count="2"/>
+        </recipe>
+
+        <recipe name="ammoBundle44MagnumBulletHP" count="1" craft_time="10">
+            <ingredient name="ammo44MagnumBulletBall" count="200"/>
+        </recipe>
+
+        <recipe name="ammoBundle44MagnumBulletAP" count="10" craft_time="10">
+            <ingredient name="ammo44MagnumBulletBall" count="200"/>
+        </recipe>
+
+  <!-- ## 7.62 MM -->
+        <recipe name="ammo762mmBulletHP" count="1" craft_time="1">
+            <ingredient name="ammo762mmBulletBall" count="2"/>
+        </recipe>
+
+        <recipe name="ammo762mmBulletAP" count="1" craft_time="1">
+            <ingredient name="ammo762mmBulletBall" count="2"/>
+        </recipe>
+
+        <recipe name="ammoBundle762mmBulletHP" count="1" craft_time="10">
+            <ingredient name="ammo762mmBulletBall" count="200"/>
+        </recipe>
+
+        <recipe name="ammoBundle762mmBulletAP" count="1" craft_time="10">
+            <ingredient name="ammo762mmBulletBall" count="200"/>
+        </recipe>
+	</append>
+
+	
+</configs>

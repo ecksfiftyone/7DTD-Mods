@@ -1,0 +1,62 @@
+<configs>
+    <!-- Change Unread Icon (From khzmusik)  Original 128,256,128,128-->
+    <set xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']/@value">check</set>
+    <insertAfter xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']">
+        <property name="AltItemTypeIconColor" value="100,255,0,225" />
+    </insertAfter>
+	
+	<append xpath="items">	
+
+<item name="x51SmallClayLump"> <!-- scrap material -->
+	<property name="CreativeMode" value="Player"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="CustomIcon" value="rock02"/>
+	<property name="CustomIconTint" value="8fd7c2"/>
+	<property name="DescriptionKey" value="x51SmallClayLumpDesc"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceClayLump"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="1"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value=".1"/>
+</item>
+
+<item name="x51SmallCrushedSand">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="resourceCement"/>
+	<property name="CustomIconTint" value="cec08a"/>
+	<property name="DescriptionKey" value="x51SmallCrushedSandDesc"/>
+	<property name="Material" value="MresourceCrushedSand"/>
+	<property name="Weight" value="1"/>
+	<property name="NoScrapping" value="true"/>
+	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="50"/>
+	<property name="Group" value="Resources"/>
+</item>
+
+<item name="x51SmallRock"> <!-- scrap material -->
+	<property name="HoldType" value="40"/>
+	<property name="Meshfile" value="@:Other/Items/Crafting/rock_smallPrefab.prefab"/>
+	<property name="DropScale" value="6"/>
+	<property name="CustomIcon" value="rock01"/>
+	<property name="CustomIconTint" value="d5d5d5"/>
+	<property name="DescriptionKey" value="x51SmallRockDesc"/>
+	<property name="Material" value="MresourceRockSmall"/>
+	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="Weight" value="1"/>
+	<property name="MeltTimePerUnit" value=".1"/>
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="50"/>
+	<property name="SoundPickup" value="stone_grab"/>
+	<property name="SoundPlace" value="stone_place"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value=".2"/>
+</item>
+	</append>
+</configs>

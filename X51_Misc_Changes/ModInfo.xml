@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="X51MiscChanges" />
+    <DisplayName value="X51 - Misc Changes" />
+    <Version value="1.21.0.0" />
+    <Description value="Small QOL Changes
+        - New Recipies
+        - - Craftable barbed wire sheets
+        - - Combine 2 regular ammo to make HP or AP ammo
+        - - Shotgun shells require scrap polymers to craft"/>
+    <Author value="x51" />
+    <Website value="" />
+</xml>
