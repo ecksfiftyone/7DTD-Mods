@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+
+x51ForgeClayLumpBundle500,items,Workstation,,,Forge Clay Bundle (500),,
+x51ForgeCrushedSandBundle500,items,Workstation,,,Forge Crushed Sand Bundle (500),,
+x51ForgeRockSmallBundle500,items,Workstation,,,Forge Small Stone Bundle (500),,
+x51ForgeScrapBrassBundle500,items,Workstation,,,Forge Scrap Brass Bundle (500),,
+x51ForgeScrapIronBundle500,items,Workstation,,,Forge Scrap Iron Bundle (500),,
+x51ForgeScrapLeadBundle500,items,Workstation,,,Forge Scrap Lead Bundle (500),,

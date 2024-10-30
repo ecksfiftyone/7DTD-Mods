@@ -1,0 +1,31 @@
+<configs>
+	<append xpath="/recipes">
+
+<!-- forge-emptying recipes -->
+	
+		<recipe name="x51ForgeClayLumpBundle500" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_clay" count="2500"/>
+		</recipe>
+
+		<recipe name="x51ForgeCrushedSandBundle500" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_glass" count="2000"/>
+		</recipe>
+		
+		<recipe name="x51ForgeRockSmallBundle500" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_stone" count="2500"/>
+		</recipe>
+
+		<recipe name="x51ForgeScrapBrassBundle500" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_brass" count="500"/>
+		</recipe>	
+	
+		<recipe name="x51ForgeScrapIronBundle500" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_iron" count="500"/>
+		</recipe>
+		
+		<recipe name="x51ForgeScrapLeadBundle500" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_lead" count="500"/>
+		</recipe>	
+				
+	</append>
+</configs>
