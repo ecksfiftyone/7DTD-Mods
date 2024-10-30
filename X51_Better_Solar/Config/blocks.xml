@@ -5,6 +5,12 @@
        <set xpath="/blocks/block[@name='solarbank']/property[@name='MaxPower']/@value">400</set> <!-- Default 180 (V1.0.333) -->
 	   <set xpath="/blocks/block[@name='solarbank']/property[@name='OutputPerStack']/@value">50</set> <!-- Default 30 (V1.0.333) -->
 
+<!-- #####  Chance for solar panels from solar banks ##### -->
+	<append xpath="/blocks/block[@name='cntCollapsedSolarbank']" >
+		<drop event="Harvest" name="solarCell" count="1" prob=".75" tag="allHarvest"/>
+		<drop event="Harvest" name="solarCell" count="2" prob=".10" tag="allHarvest"/>
+		<drop event="Destroy" name="solarbank" count="1" prob=".35"/>
+	</append>
 	  
 	
 </configs>
