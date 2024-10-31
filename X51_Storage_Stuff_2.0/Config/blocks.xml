@@ -30,12 +30,12 @@
 			<property name="AllowAllRotations" value="true"/>
 			<property name="Path" value="solid"/>
 			<property name="MaxDamage" value="7500"/>
-			<property name="DowngradeBlock" value="cntHardenedChestInsecurePlayer"/>
+			<property name="DowngradeBlock" value="cntHardenedChestInsecureTE"/>
 			<property name="Group" value="Building,advBuilding"/>
 			<property name="Tags" value="safes,timecharge"/>		
 		</block>
 
-		<block name="cntHardenedChestInsecurePlayer">
+		<block name="cntHardenedChestInsecureTE">
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="x51HardenedChest"/>
@@ -85,10 +85,10 @@
 			<property name="FilterTags" value="MC_building,SC_loot,MC_helpers,SC_treasureRoom"/>
 			<property class="RepairItems"> <property name="resourceForgedSteel" value="2"/> </property>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntMunitionsBoxArmyX51Insecure"/>
+			<property name="DowngradeBlock" value="cntMunitionsBoxArmyX51InsecureTE"/>
 		</block>
 
-		<block name="cntMunitionsBoxArmyX51Insecure">
+		<block name="cntMunitionsBoxArmyX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="x51HardenedChest"/>
@@ -117,12 +117,12 @@
 			<property name="TintColor" value="B55950"/>
 			<property name="SortOrder1" value="B102"/>
 			<property name="SortOrder2" value="0011"/>
-			<property name="DowngradeBlock" value="cntMunitionsBoxRedX51Insecure"/>
+			<property name="DowngradeBlock" value="cntMunitionsBoxRedX51InsecureTE"/>
 		</block>
 
-		<block name="cntMunitionsBoxRedX51Insecure">
+		<block name="cntMunitionsBoxRedX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntMunitionsBoxArmyX51Insecure"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51InsecureTE"/>
 			<property name="CustomIconTint" value="B55950"/>
 			<property name="TintColor" value="B55950"/>
 			<property name="SortOrder1" value="B102"/>
@@ -136,12 +136,12 @@
 			<property name="TintColor" value="8A6C36"/>
 			<property name="SortOrder1" value="B102"/>
 			<property name="SortOrder2" value="0012"/>
-			<property name="DowngradeBlock" value="cntMunitionsBoxOrangeX51Insecure"/>
+			<property name="DowngradeBlock" value="cntMunitionsBoxOrangeX51InsecureTE"/>
 		</block>
 
-		<block name="cntMunitionsBoxOrangeX51Insecure">
+		<block name="cntMunitionsBoxOrangeX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntMunitionsBoxArmyX51Insecure"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51InsecureTE"/>
 			<property name="CustomIconTint" value="8A6C36"/>
 			<property name="TintColor" value="8A6C36"/>
 			<property name="SortOrder1" value="B102"/>
@@ -155,12 +155,12 @@
 			<property name="TintColor" value="4A6F46"/>
 			<property name="SortOrder1" value="B102"/>
 			<property name="SortOrder2" value="0013"/>
-			<property name="DowngradeBlock" value="cntMunitionsBoxGreenX51Insecure"/>
+			<property name="DowngradeBlock" value="cntMunitionsBoxGreenX51InsecureTE"/>
 		</block>
 
-		<block name="cntMunitionsBoxGreenX51Insecure">
+		<block name="cntMunitionsBoxGreenX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntMunitionsBoxArmyX51Insecure"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51InsecureTE"/>
 			<property name="CustomIconTint" value="4A6F46"/>
 			<property name="TintColor" value="4A6F46"/>
 			<property name="SortOrder1" value="B102"/>
@@ -174,12 +174,12 @@
 			<property name="TintColor" value="4D5C7A"/>
 			<property name="SortOrder1" value="B102"/>
 			<property name="SortOrder2" value="0014"/>
-			<property name="DowngradeBlock" value="cntMunitionsBoxBlueX51Insecure"/>
+			<property name="DowngradeBlock" value="cntMunitionsBoxBlueX51InsecureTE"/>
 		</block>
 
-		<block name="cntMunitionsBoxBlueX51Insecure">
+		<block name="cntMunitionsBoxBlueX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntMunitionsBoxArmyX51Insecure"/>
+			<property name="Extends" value="cntMunitionsBoxArmyX51InsecureTE"/>
 			<property name="CustomIconTint" value="4D5C7A"/>
 			<property name="TintColor" value="4D5C7A"/>
 			<property name="SortOrder1" value="B102"/>
@@ -214,13 +214,13 @@
 			<property name="WaterFlow" value="permitted"/>
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntPalletCartonMilitaryBaseX51Insecure"/>
+			<property name="DowngradeBlock" value="cntPalletCartonMilitaryBaseX51InsecureTE"/>
 			<property name="SortOrder1" value="B278"/>
 			<property name="SortOrder2" value="0500"/>
 			<property name="FilterTags" value="MC_building,SC_construction,SC_decor"/>
 		</block>
 
-		<block name="cntPalletCartonMilitaryBaseX51Insecure">
+		<block name="cntPalletCartonMilitaryBaseX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="x51HardenedChestTE"/>
@@ -244,12 +244,12 @@
 			<property name="CustomIcon" value="palletCartonMilitaryCap"/>
 			<property name="Model" value="Entities/Industrial/palletCartonMilitaryCapPrefab"/>
 			<property name="SortOrder2" value="0501"/>
-			<property name="DowngradeBlock" value="cntPalletCartonMilitaryCapX51Insecure"/>
+			<property name="DowngradeBlock" value="cntPalletCartonMilitaryCapX51InsecureTE"/>
 		</block>
 
-		<block name="cntPalletCartonMilitaryCapX51Insecure">
+		<block name="cntPalletCartonMilitaryCapX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntPalletCartonMilitaryBaseX51Insecure"/>
+			<property name="Extends" value="cntPalletCartonMilitaryBaseX51InsecureTE"/>
 			<property name="CustomIcon" value="palletCartonMilitaryCap"/>
 			<property name="Model" value="Entities/Industrial/palletCartonMilitaryCapPrefab"/>
 			<property name="SortOrder2" value="0501"/>
@@ -262,12 +262,12 @@
 			<property name="Model" value="Entities/Industrial/palletCartonMilitaryTilePrefab"/>
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
 			<property name="SortOrder2" value="0502"/>
-			<property name="DowngradeBlock" value="cmtPalletCartonMilitaryTileX51Insecure"/>
+			<property name="DowngradeBlock" value="cmtPalletCartonMilitaryTileX51InsecureTE"/>
 		</block>
 
-		<block name="cmtPalletCartonMilitaryTileX51Insecure">
+		<block name="cmtPalletCartonMilitaryTileX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntPalletCartonMilitaryBaseX51Insecure"/>
+			<property name="Extends" value="cntPalletCartonMilitaryBaseX51InsecureTE"/>
 			<property name="CustomIcon" value="palletCartonMilitaryTile"/>
 			<property name="Model" value="Entities/Industrial/palletCartonMilitaryTilePrefab"/>
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
@@ -281,12 +281,12 @@
 			<property name="Model" value="Entities/Industrial/palletCartonMilitaryTileCoveredPrefab"/>
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
 			<property name="SortOrder2" value="0503"/>
-			<property name="DowngradeBlock" value="cntPalletCartonMilitaryTileCoveredX51Insecure"/>
+			<property name="DowngradeBlock" value="cntPalletCartonMilitaryTileCoveredX51InsecureTE"/>
 		</block>
 
-		<block name="cntPalletCartonMilitaryTileCoveredX51Insecure">
+		<block name="cntPalletCartonMilitaryTileCoveredX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntPalletCartonMilitaryBaseX51Insecure"/>
+			<property name="Extends" value="cntPalletCartonMilitaryBaseX51InsecureTE"/>
 			<property name="CustomIcon" value="palletCartonMilitaryTileCovered"/>
 			<property name="Model" value="Entities/Industrial/palletCartonMilitaryTileCoveredPrefab"/>
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
@@ -327,16 +327,20 @@
 			<property name="IsTerrainDecoration" value="true"/>
 			<property class="RepairItems"> <property name="resourceForgedSteel" value="10"/> </property>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntGasPumpX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGasPumpX51InsecureTE"/>
 			<property name="SortOrder1" value="B477"/>
 			<property name="SortOrder2" value="0000"/>
 			<property name="FilterTags" value="MC_helpers,SC_loot,SC_helperCommercial"/>
 		</block>
 
-		<block name="cntGasPumpX51Insecure">
+		<block name="cntGasPumpX51InsecureTE">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51HardenedChestTE"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51HardenedChestTE"/>
+				</property>
+			</property>
 			<property name="CustomIcon" value="cntGasPumpFull"/>
 			<property name="DisplayInfo" value="Name"/>
 			<property name="Material" value="Mmetal_hard"/>
@@ -381,16 +385,20 @@
 				<property name="resourceForgedIron" value="10"/>
 			</property>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntMiniBeverageCoolerInsecure"/>
+			<property name="DowngradeBlock" value="cntMiniBeverageCoolerInsecureTE"/>
 			<property name="SortOrder1" value="B477"/>
 			<property name="SortOrder2" value="0000"/>
 			<property name="FilterTags" value="MC_helpers,SC_loot,SC_helperCommercial"/>
 		</block>
 
-		<block name="cntMiniBeverageCoolerInsecure">
+		<block name="cntMiniBeverageCoolerInsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51MiniBeverageCoolerTE"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51MiniBeverageCoolerTE"/>
+				</property>
+			</property>
 			<property name="CustomIcon" value="cntMiniBeverageCooler"/>
 			<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
 			<property name="Material" value="Mmetal"/>
@@ -420,12 +428,12 @@
 			<property name="ModelOffset" value="0,0,-1"/>
 			<property name="Model" value="Entities/Commercial/miniBeverageCoolerUnderCounterPrefab"/>
 			<property name="SortOrder2" value="0102"/>
-			<property name="DowngradeBlock" value="cntMiniBeverageCoolerUnderCounterInsecure"/>
+			<property name="DowngradeBlock" value="cntMiniBeverageCoolerUnderCounterInsecureTE"/>
 		</block>
 
-		<block name="cntMiniBeverageCoolerUnderCounterInsecure">
+		<block name="cntMiniBeverageCoolerUnderCounterInsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntMiniBeverageCoolerInsecure"/>
+			<property name="Extends" value="cntMiniBeverageCoolerInsecureTE"/>
 			<property name="CustomIcon" value="cntMiniBeverageCooler"/>
 			<property name="ModelOffset" value="0,0,-1"/>
 			<property name="Model" value="Entities/Commercial/miniBeverageCoolerUnderCounterPrefab"/>
@@ -471,7 +479,7 @@
 			</property>
 			<property name="DestroyFX" value="blockdestroy_cloth,plasticdestroy"/>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="SortOrder1" value="B113"/>
 			<property name="SortOrder2" value="1200"/>
 			<property name="FilterTags" value="MC_building,SC_loot,SC_commercial,SC_industrial"/>
@@ -479,9 +487,13 @@
 			<property name="IndexName" value="challenge_polymers"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyX51Insecure">
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51UtilityCartTE"/>
+		<block name="cntUtilityCartEmptyX51InsecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51UtilityCartTE"/>
+				</property>
+			</property>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIcon" value="cntUtilityCartEmptyWhite"/>
 			<property name="CustomIconTint" value="CCCCCC"/>
@@ -515,12 +527,12 @@
 			<property name="CustomIconTint" value="6B5B47"/>
 			<property name="TintColor" value="6B5B47"/>
 			<property name="SortOrder2" value="1201"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyBrownX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyBrownX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyBrownX51Insecure">
+		<block name="cntUtilityCartEmptyBrownX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="6B5B47"/>
 			<property name="TintColor" value="6B5B47"/>
 			<property name="SortOrder2" value="1201"/>
@@ -533,12 +545,12 @@
 			<property name="CustomIconTint" value="72433F"/>
 			<property name="TintColor" value="72433F"/>
 			<property name="SortOrder2" value="1202"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyRedX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyRedX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyRedX51Insecure">
+		<block name="cntUtilityCartEmptyRedX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="72433F"/>
 			<property name="TintColor" value="72433F"/>
 			<property name="SortOrder2" value="1202"/>
@@ -551,12 +563,12 @@
 			<property name="CustomIconTint" value="9A9673"/>
 			<property name="TintColor" value="9A9673"/>
 			<property name="SortOrder2" value="1204"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyYellowX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyYellowX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyYellowX51Insecure">
+		<block name="cntUtilityCartEmptyYellowX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="9A9673"/>
 			<property name="TintColor" value="9A9673"/>
 			<property name="SortOrder2" value="1204"/>
@@ -569,12 +581,12 @@
 			<property name="CustomIconTint" value="586D5A"/>
 			<property name="TintColor" value="586D5A"/>
 			<property name="SortOrder2" value="1205"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyGreenX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyGreenX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyGreenX51Insecure">
+		<block name="cntUtilityCartEmptyGreenX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="586D5A"/>
 			<property name="TintColor" value="586D5A"/>
 			<property name="SortOrder2" value="1205"/>
@@ -587,12 +599,12 @@
 			<property name="CustomIconTint" value="45686B"/>
 			<property name="TintColor" value="45686B"/>
 			<property name="SortOrder2" value="1206"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyBlueX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyBlueX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyBlueX51Insecure">
+		<block name="cntUtilityCartEmptyBlueX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="45686B"/>
 			<property name="TintColor" value="45686B"/>
 			<property name="SortOrder2" value="1206"/>
@@ -605,12 +617,12 @@
 			<property name="CustomIconTint" value="6C6C6C"/>
 			<property name="TintColor" value="6C6C6C"/>
 			<property name="SortOrder2" value="1208"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyGreyX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyGreyX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyGreyX51Insecure">
+		<block name="cntUtilityCartEmptyGreyX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="6C6C6C"/>
 			<property name="TintColor" value="6C6C6C"/>
 			<property name="SortOrder2" value="1208"/>
@@ -623,12 +635,12 @@
 			<property name="CustomIconTint" value="2E2E2E"/>
 			<property name="TintColor" value="2E2E2E"/>
 			<property name="SortOrder2" value="1209"/>
-			<property name="DowngradeBlock" value="cntUtilityCartEmptyBlackX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartEmptyBlackX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartEmptyBlackX51Insecure">
+		<block name="cntUtilityCartEmptyBlackX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIconTint" value="2E2E2E"/>
 			<property name="TintColor" value="2E2E2E"/>
 			<property name="SortOrder2" value="1209"/>
@@ -642,12 +654,12 @@
 			<property name="CustomIcon" value="cntUtilityCartFullWhite"/>
 			<property name="Model" value="@:Entities/LootContainers/utilityCartFullPrefab.prefab"/>
 			<dropextendsoff/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="SortOrder2" value="1300"/>
 		</block>
 
-		<block name="cntUtilityCartFullX51Insecure">
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+		<block name="cntUtilityCartFullX51InsecureTE">
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIcon" value="cntUtilityCartFullWhite"/>
 			<property name="Model" value="@:Entities/LootContainers/utilityCartFullPrefab.prefab"/>
@@ -663,12 +675,12 @@
 			<property name="CustomIconTint" value="6B5B47"/>
 			<property name="TintColor" value="6B5B47"/>
 			<property name="SortOrder2" value="1301"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullBrownX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullBrownX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullBrownX51Insecure">
+		<block name="cntUtilityCartFullBrownX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="6B5B47"/>
 			<property name="TintColor" value="6B5B47"/>
 			<property name="SortOrder2" value="1301"/>
@@ -681,12 +693,12 @@
 			<property name="CustomIconTint" value="72433F"/>
 			<property name="TintColor" value="72433F"/>
 			<property name="SortOrder2" value="1302"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullRedX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullRedX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullRedX51Insecure">
+		<block name="cntUtilityCartFullRedX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="72433F"/>
 			<property name="TintColor" value="72433F"/>
 			<property name="SortOrder2" value="1302"/>
@@ -699,12 +711,12 @@
 			<property name="CustomIconTint" value="9A9673"/>
 			<property name="TintColor" value="9A9673"/>
 			<property name="SortOrder2" value="1304"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullYellowX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullYellowX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullYellowX51Insecure">
+		<block name="cntUtilityCartFullYellowX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="9A9673"/>
 			<property name="TintColor" value="9A9673"/>
 			<property name="SortOrder2" value="1304"/>
@@ -717,12 +729,12 @@
 			<property name="CustomIconTint" value="586D5A"/>
 			<property name="TintColor" value="586D5A"/>
 			<property name="SortOrder2" value="1305"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullGreenX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullGreenX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullGreenX51Insecure">
+		<block name="cntUtilityCartFullGreenX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="586D5A"/>
 			<property name="TintColor" value="586D5A"/>
 			<property name="SortOrder2" value="1305"/>
@@ -735,12 +747,12 @@
 			<property name="CustomIconTint" value="45686B"/>
 			<property name="TintColor" value="45686B"/>
 			<property name="SortOrder2" value="1306"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullBlueX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullBlueX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullBlueX51Insecure">
+		<block name="cntUtilityCartFullBlueX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="45686B"/>
 			<property name="TintColor" value="45686B"/>
 			<property name="SortOrder2" value="1306"/>
@@ -753,12 +765,12 @@
 			<property name="CustomIconTint" value="6C6C6C"/>
 			<property name="TintColor" value="6C6C6C"/>
 			<property name="SortOrder2" value="1308"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullGreyX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullGreyX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullGreyX51Insecure">
+		<block name="cntUtilityCartFullGreyX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="6C6C6C"/>
 			<property name="TintColor" value="6C6C6C"/>
 			<property name="SortOrder2" value="1308"/>
@@ -771,12 +783,12 @@
 			<property name="CustomIconTint" value="2E2E2E"/>
 			<property name="TintColor" value="2E2E2E"/>
 			<property name="SortOrder2" value="1309"/>
-			<property name="DowngradeBlock" value="cntUtilityCartFullBlackX51Insecure"/>
+			<property name="DowngradeBlock" value="cntUtilityCartFullBlackX51InsecureTE"/>
 		</block>
 
-		<block name="cntUtilityCartFullBlackX51Insecure">
+		<block name="cntUtilityCartFullBlackX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartFullX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartFullX51InsecureTE"/>
 			<property name="CustomIconTint" value="2E2E2E"/>
 			<property name="TintColor" value="2E2E2E"/>
 			<property name="SortOrder2" value="1309"/>
@@ -792,13 +804,13 @@
 			<property name="ModelOffset" value="-0.5,0,0"/>
 			<property name="OversizedBounds" value="(-0.5,0,0),(2,1,1)"/>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntJanitorCartFullX51Insecure"/>
+			<property name="DowngradeBlock" value="cntJanitorCartFullX51InsecureTE"/>
 			<property name="SortOrder2" value="1500"/>
 		</block>
 
-		<block name="cntJanitorCartFullX51Insecure">
+		<block name="cntJanitorCartFullX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIcon" value="cntJanitorCartFull"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="Model" value="Entities/Commercial/janitorCartPrefab"/>
@@ -820,12 +832,12 @@
 			<property name="OversizedBounds" value="(-0.5,0,0),(2,1,1)"/>
 			<property name="SortOrder1" value="B113"/>
 			<property name="SortOrder2" value="1501"/>
-			<property name="DowngradeBlock" value="cntJanitorCartEmptyX51Insecure"/>
+			<property name="DowngradeBlock" value="cntJanitorCartEmptyX51InsecureTE"/>
 		</block>
 
-		<block name="cntJanitorCartEmptyX51Insecure">
+		<block name="cntJanitorCartEmptyX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntUtilityCartEmptyX51Insecure"/>
+			<property name="Extends" value="cntUtilityCartEmptyX51InsecureTE"/>
 			<property name="CustomIcon" value="cntJanitorCartEmpty"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
 			<property name="DisplayType" value="blockMulti"/>
@@ -870,7 +882,7 @@
             <property name="UseGlobalUV" value="Local"/>
             <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
 			<property name="MaxDamage" value="2000"/>
-            <property name="DowngradeBlock" value="cntCabinetBottomX51Insecure"/>
+            <property name="DowngradeBlock" value="cntCabinetBottomX51InsecureTE"/>
             <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
             <property name="Path" value="solid"/>
             <property name="Place" value="TowardsPlacerInverted"/>
@@ -879,9 +891,13 @@
             <property name="EconomicBundleSize" value="20"/>
         </block>
 
-        <block name="cntCabinetBottomX51Insecure">
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51CupboardTE"/>
+        <block name="cntCabinetBottomX51InsecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51CupboardTE"/>
+				</property>
+			</property>
             <property name="CreativeMode" value="Dev"/>
             <property name="Material" value="MwoodReinforced"/> 
             <property name="CustomIcon" value="cntCabinetBottomFiller"/> 
@@ -908,12 +924,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="cupboard"/> 
             <property name="Texture" value="345,345,263,345,345,345"/>
-			<property name="DowngradeBlock" value="cntCupboardCabinetRedTopX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCupboardCabinetRedTopX51InsecureTE"/>
         </block>
 
-        <block name="cntCupboardCabinetRedTopX51Insecure">
+        <block name="cntCupboardCabinetRedTopX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCupboardCabinetRedTopLootHelper"/> 
             <property name="Model" value="cupboard"/> 
             <property name="Texture" value="345,345,263,345,345,345"/>
@@ -926,12 +942,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="cupboard_corner"/> 
             <property name="Texture" value="345,345,263,345,345,345"/>
-			<property name="DowngradeBlock" value="cntCupboardCornerCNRRedX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCupboardCornerCNRRedX51InsecureTE"/>
         </block>
 
-        <block name="cntCupboardCornerCNRRedX51Insecure">
+        <block name="cntCupboardCornerCNRRedX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCupboardCornerCNRRed"/> 
             <property name="Model" value="cupboard_corner"/> 
             <property name="Texture" value="345,345,263,345,345,345"/>
@@ -944,12 +960,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="cube"/> 
             <property name="Texture" value="345,345,263,345,345,345"/>
-			<property name="DowngradeBlock" value="cntCupboardCabinetFullRedTopX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCupboardCabinetFullRedTopX51InsecureTE"/>
         </block>
 
-        <block name="cntCupboardCabinetFullRedTopX51Insecure">
+        <block name="cntCupboardCabinetFullRedTopX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCupboardCabinetFullRedTopClosed"/> 
             <property name="Model" value="cube"/> 
             <property name="Texture" value="345,345,263,345,345,345"/>
@@ -961,12 +977,12 @@
             <property name="CustomIcon" value="cntCabinetOldBottomLootHelper"/> 
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Texture" value="78,84,79,84,84,84"/>
-			<property name="DowngradeBlock" value="cntCabinetOldBottomX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCabinetOldBottomX51InsecureTE"/>
         </block>
  
-        <block name="cntCabinetOldBottomX51Insecure">
+        <block name="cntCabinetOldBottomX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCabinetOldBottomLootHelper"/> 
             <property name="Texture" value="78,84,79,84,84,84"/>
         </block>
@@ -978,12 +994,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="counter_sink_hole_round"/> 
             <property name="Texture" value="373,261,262,345,345,345"/>
-			<property name="DowngradeBlock" value="cntGraniteSinkX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGraniteSinkX51InsecureTE"/>
         </block>
 
-        <block name="cntGraniteSinkX51Insecure">
+        <block name="cntGraniteSinkX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCabinetGraniteSinkHoleRound"/> 
             <property name="Model" value="counter_sink_hole_round"/> 
             <property name="Texture" value="373,261,262,345,345,345"/>
@@ -996,12 +1012,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="cupboard"/> 
             <property name="Texture" value="84,84,81,84,84,84"/>
-			<property name="DowngradeBlock" value="cntCupboardCabinetOldTopX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCupboardCabinetOldTopX51InsecureTE"/>
         </block>
 
-        <block name="cntCupboardCabinetOldTopX51Insecure">
+        <block name="cntCupboardCabinetOldTopX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCupboardCabinetOldTopLootHelper"/> 
             <property name="Model" value="cupboard"/> 
             <property name="Texture" value="84,84,81,84,84,84"/>
@@ -1014,12 +1030,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="cupboard_corner"/> 
             <property name="Texture" value="84,84,81,84,84,84"/>
-			<property name="DowngradeBlock" value="cntCupboardCornerCNROldX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCupboardCornerCNROldX51InsecureTE"/>
         </block>
 
-        <block name="cntCupboardCornerCNROldX51Insecure">
+        <block name="cntCupboardCornerCNROldX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCupboardCornerCNROld"/> 
             <property name="Model" value="cupboard_corner"/> 
             <property name="Texture" value="84,84,81,84,84,84"/>
@@ -1032,12 +1048,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="cube"/> 
             <property name="Texture" value="84,84,81,84,84,84"/>
-			<property name="DowngradeBlock" value="cntCupboardCabinetFullOldTopX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCupboardCabinetFullOldTopX51InsecureTE"/>
         </block>
 
-        <block name="cntCupboardCabinetFullOldTopX51Insecure">
+        <block name="cntCupboardCabinetFullOldTopX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCupboardCabinetFullOldTopClosed"/> 
             <property name="Model" value="cube"/> 
             <property name="Texture" value="84,84,81,84,84,84"/>
@@ -1051,12 +1067,12 @@
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="counter_sink_hole_round"/> 
             <property name="Texture" value="374,78,79,84,84,84"/>
-			<property name="DowngradeBlock" value="cntCabinetOldSinkX51Insecure"/>
+			<property name="DowngradeBlock" value="cntCabinetOldSinkX51InsecureTE"/>
         </block>
 
-        <block name="cntCabinetOldSinkX51Insecure">
+        <block name="cntCabinetOldSinkX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntCabinetBottomX51Insecure"/>
+			<property name="Extends" value="cntCabinetBottomX51InsecureTE"/>
             <property name="CustomIcon" value="cntCabinetGraniteSinkHoleRound"/> 
             <property name="CustomIconTint" value="555555"/>
             <property name="Model" value="counter_sink_hole_round"/> 
@@ -1093,14 +1109,18 @@
             <property name="UseGlobalUV" value="Local"/>
             <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
 			<property name="MaxDamage" value="2000"/>
-            <property name="DowngradeBlock" value="cntNightstandX51Insecure"/>
+            <property name="DowngradeBlock" value="cntNightstandX51InsecureTE"/>
             <property name="FilterTags" value="MC_building,SC_loot"/>
             <property name="SortOrder2" value="0060"/> <!-- SortShape -->
         </block>
 
-        <block name="cntNightstandX51Insecure">
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51BookcaseTE"/>
+        <block name="cntNightstandX51InsecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51BookcaseTE"/>
+				</property>
+			</property>
             <property name="CreativeMode" value="Player"/>
             <property name="Material" value="MwoodReinforced"/>
             <property name="CustomIcon" value="cntNightstandClosed"/>
@@ -1145,18 +1165,22 @@
             </property>
             <property name="EconomicValue" value="570"/>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntDeskMetalX51Insecure"/>
+			<property name="DowngradeBlock" value="cntDeskMetalX51InsecureTE"/>
             <property name="FilterTags" value="MC_helpers,SC_loot"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
 
-        <block name="cntDeskMetalX51Insecure">
+        <block name="cntDeskMetalX51InsecureTE">
             <property name="CreativeMode" value="Player"/>
             <property name="CustomIcon" value="cntDeskMetalFullWhite"/>
             <property name="CustomIconTint" value="A09F94"/>
 	        <property name="TintColor" value="A09F94"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51MetalDeskTE"/> 
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51MetalDeskTE"/>
+				</property>
+			</property>   
             <property name="Material" value="Mmetal"/>
             <property name="StabilitySupport" value="true"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1208,17 +1232,21 @@
 				<property name="resourceWood" value="15"/>
 			</property>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntDeskWoodX51Insecure"/>
+			<property name="DowngradeBlock" value="cntDeskWoodX51InsecureTE"/>
 			<property name="SortOrder1" value="B406"/>
 			<property name="SortOrder2" value="0000"/>
 			<property name="Group" value="Decor/Miscellaneous"/>
 			<property name="FilterTags" value="MC_helpers,SC_loot"/>
 		</block>
 
-		<block name="cntDeskWoodX51Insecure">
+		<block name="cntDeskWoodX51InsecureTE">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51CupboardTE"/> 
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51CupboardTE"/>
+				</property>
+			</property>   
 			<property name="CustomIcon" value="cntDeskWoodFull"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="Material" value="Mwood_weak"/>
@@ -1271,16 +1299,20 @@
             </property>
             <property name="EconomicValue" value="200"/>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntLockersShortX51Insecure"/>
+			<property name="DowngradeBlock" value="cntLockersShortX51InsecureTE"/>
             <property name="FilterTags" value="MC_helpers,SC_loot"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
 
-        <block name="cntLockersShortX51Insecure">
+        <block name="cntLockersShortX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="cntLockersShortClosed"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51LockersTE"/>    
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51LockersTE"/>
+				</property>
+			</property>      
             <property name="Material" value="Mmetal"/>
             <property name="StabilitySupport" value="true"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1306,12 +1338,12 @@
             <property name="DisplayType" value="blockMulti"/>
 	        <property name="MultiBlockDim" value="1,2,1"/>
             <property name="Model" value="@:Entities/LootContainers/locker_ver1_lootPrefab.prefab"/>
-			<property name="DowngradeBlock" value="cntLockersTallX51Insecure"/>
+			<property name="DowngradeBlock" value="cntLockersTallX51InsecureTE"/>
         </block>
 
-        <block name="cntLockersTallX51Insecure">
+        <block name="cntLockersTallX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntLockersShortX51Insecure"/>
+			<property name="Extends" value="cntLockersShortX51InsecureTE"/>
             <property name="CustomIcon" value="cntLockersTallClosed"/> 
             <property name="DisplayType" value="blockMulti"/>
 	        <property name="MultiBlockDim" value="1,2,1"/>
@@ -1326,12 +1358,12 @@
             <property name="DisplayType" value="blockMulti"/>
 	        <property name="MultiBlockDim" value="1,2,1"/>
             <property name="Model" value="@:Entities/LootContainers/locker_ver2_lootPrefab.prefab"/>
-			<property name="DowngradeBlock" value="cntLockersTallDoubleX51Insecure"/>
+			<property name="DowngradeBlock" value="cntLockersTallDoubleX51InsecureTE"/>
         </block>
 
-        <block name="cntLockersTallDoubleX51Insecure">
+        <block name="cntLockersTallDoubleX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntLockersShortX51Insecure"/>
+			<property name="Extends" value="cntLockersShortX51InsecureTE"/>
             <property name="CustomIcon" value="cntLockersTallDoubleClosed"/> 
             <property name="DisplayType" value="blockMulti"/>
 	        <property name="MultiBlockDim" value="1,2,1"/>
@@ -1373,16 +1405,20 @@
             </property>
             <property name="EconomicValue" value="200"/>
 			<property name="MaxDamage" value="2000"/>
-			<property name="DowngradeBlock" value="cntGunRackSmallArmorX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunRackSmallArmorX51InsecureTE"/>
             <property name="FilterTags" value="MC_helpers,SC_loot"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
 
-        <block name="cntGunRackSmallArmorX51Insecure">
+        <block name="cntGunRackSmallArmorX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="cntGunRackSmallArmor"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51AmmoDisplayTE"/>      
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51AmmoDisplayTE"/>
+				</property>
+			</property>          
             <property name="Material" value="Mmetal"/>
             <property name="StabilitySupport" value="true"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1406,12 +1442,12 @@
             <property name="CustomIcon" value="cntGunRackSmallMagazines"/> 
             <property name="ItemTypeIcon" value="lock"/>
             <property name="Model" value="Entities/Commercial/gunrackWallMagPrefab"/>
-			<property name="DowngradeBlock" value="cntGunRackSmallMagazinesX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunRackSmallMagazinesX51InsecureTE"/>
         </block>
 
-        <block name="cntGunRackSmallMagazinesX51Insecure">
+        <block name="cntGunRackSmallMagazinesX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunRackSmallArmorX51Insecure"/>
+			<property name="Extends" value="cntGunRackSmallArmorX51InsecureTE"/>
             <property name="CustomIcon" value="cntGunRackSmallMagazines"/> 
             <property name="Model" value="Entities/Commercial/gunrackWallMagPrefab"/>
         </block>
@@ -1424,12 +1460,12 @@
             <property name="MultiBlockDim" value="1,2,1"/>
 	        <property name="DisplayType" value="blockMulti"/>
             <property name="Model" value="Entities/Commercial/gunrackWallGunsAPrefab"/>
-			<property name="DowngradeBlock" value="cntGunRackLargeGuns01X51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunRackLargeGuns01X51InsecureTE"/>
         </block>
 
-        <block name="cntGunRackLargeGuns01X51Insecure">
+        <block name="cntGunRackLargeGuns01X51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunRackSmallArmorX51Insecure"/>
+			<property name="Extends" value="cntGunRackSmallArmorX51InsecureTE"/>
             <property name="CustomIcon" value="cntGunRackLargeGuns01"/> 
             <property name="MultiBlockDim" value="1,2,1"/>
 	        <property name="DisplayType" value="blockMulti"/>
@@ -1444,12 +1480,12 @@
             <property name="MultiBlockDim" value="1,2,1"/>
 	        <property name="DisplayType" value="blockMulti"/>
             <property name="Model" value="Entities/Commercial/gunrackWallGunsBPrefab"/>
-			<property name="DowngradeBlock" value="cntGunRackLargeGuns02X51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunRackLargeGuns02X51InsecureTE"/>
         </block>
 
-        <block name="cntGunRackLargeGuns02X51Insecure">
+        <block name="cntGunRackLargeGuns02X51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunRackSmallArmorX51Insecure"/>
+			<property name="Extends" value="cntGunRackSmallArmorX51InsecureTE"/>
             <property name="CustomIcon" value="cntGunRackLargeGuns02"/> 
             <property name="MultiBlockDim" value="1,2,1"/>
 	        <property name="DisplayType" value="blockMulti"/>
@@ -1487,14 +1523,18 @@
             <property name="UseGlobalUV" value="Local"/>
             <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
 			<property name="MaxDamage" value="2000"/>
-            <property name="DowngradeBlock" value="cntBookcaseX51Insecure"/>
+            <property name="DowngradeBlock" value="cntBookcaseX51InsecureTE"/>
             <property name="FilterTags" value="MC_building,SC_loot"/>
             <property name="SortOrder2" value="0060"/> <!-- SortShape -->
         </block>
 
-        <block name="cntBookcaseX51Insecure">
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51BookcaseTE"/>   
+        <block name="cntBookcaseX51InsecureTE">
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51BookcaseTE"/>
+				</property>
+			</property>   
             <property name="CreativeMode" value="Player"/>
             <property name="Material" value="MwoodReinforced"/>
             <property name="CustomIcon" value="cntBookcaseFull"/>
@@ -1537,16 +1577,20 @@
                 <property name="resourceElectricParts" value="10"/>
             </property>
 			<property name="MaxDamage" value="2000"/>
-            <property name="DowngradeBlock" value="cntRetroFridgeX51Insecure"/>
+            <property name="DowngradeBlock" value="cntRetroFridgeX51InsecureTE"/>
             <property name="EconomicValue" value="192"/>
             <property name="FilterTags" value="MC_building,SC_loot"/>
         </block>
 
-        <block name="cntRetroFridgeX51Insecure">
+        <block name="cntRetroFridgeX51InsecureTE">
             <property name="CreativeMode" value="Dev"/>
             <property name="Material" value="Mmetal"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51FridgeTE"/>  
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51FridgeTE"/>
+				</property>
+			</property>  
             <property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Path" value="solid"/>
@@ -1574,12 +1618,12 @@
             <property name="Model" value="Entities/Appliances/fridgeStainlessSteelClosedPrefab" param1="main_mesh"/>
             <property name="CustomIcon" value="cntFridgeStainlessSteel"/>
             <property name="ItemTypeIcon" value="lock"/>
-			<property name="DowngradeBlock" value="cntFridgeStainlessSteelX51Insecure"/>
+			<property name="DowngradeBlock" value="cntFridgeStainlessSteelX51InsecureTE"/>
         </block>
 
-        <block name="cntFridgeStainlessSteelX51Insecure">
+        <block name="cntFridgeStainlessSteelX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-            <property name="Extends" value="cntRetroFridgeX51Insecure"/>
+            <property name="Extends" value="cntRetroFridgeX51InsecureTE"/>
             <property name="Model" value="Entities/Appliances/fridgeStainlessSteelClosedPrefab" param1="main_mesh"/>
             <property name="CustomIcon" value="cntFridgeStainlessSteel"/>
         </block>
@@ -1614,15 +1658,19 @@
             <property name="Place" value="TowardsPlacer90"/>
             <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
 			<property name="MaxDamage" value="2000"/>
-            <property name="DowngradeBlock" value="cntPillCaseX51Insecure"/>
+            <property name="DowngradeBlock" value="cntPillCaseX51InsecureTE"/>
             <property name="FilterTags" value="MC_building,SC_loot"/>
             <property name="DescriptionKey" value="x51StorageGroupDesc"/>
         </block>
 
-        <block name="cntPillCaseX51Insecure">
+        <block name="cntPillCaseX51InsecureTE">
 			<property name="CreativeMode" value="Player"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51CupboardTE"/>  
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51CupboardTE"/>
+				</property>
+			</property>  
             <property name="Material" value="Mwood_weak"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="@:Entities/LootContainers/pill_case_closedPrefab.prefab"/>
@@ -1658,7 +1706,7 @@
 			<property class="RepairItems">
 				<property name="resourceForgedIron" value="15"/>
 			</property>
-			<property name="DowngradeBlock" value="cntWallSafeX51Insecure"/>
+			<property name="DowngradeBlock" value="cntWallSafeX51InsecureTE"/>
 			<property name="SortOrder1" value="B101"/>
 			<property name="SortOrder2" value="0000"/>
 			<property name="Group" value="Building,advBuilding"/>
@@ -1666,10 +1714,14 @@
 			<property name="FilterTags" value="MC_building,SC_loot"/>
 		</block>
 
-		<block name="cntWallSafeX51Insecure">
+		<block name="cntWallSafeX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51SmallSafeTE"/> 
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51SmallSafeTE"/>
+				</property>
+			</property>
 			<property name="DescriptionKey" value="x51StorageGroupDesc"/>
 			<property name="CustomIcon" value="cntWallSafe"/>
 			<property name="DisplayType" value="blockHardened"/>
@@ -1699,11 +1751,11 @@
 			<property name="WaterFlow" value="permitted"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="DowngradeBlock" value="cntDeskSafeX51Insecure"/>
+			<property name="DowngradeBlock" value="cntDeskSafeX51InsecureTE"/>
 		</block>
 
-		<block name="cntDeskSafeX51Insecure">
-			<property name="Extends" value="cntWallSafeX51Insecure"/>
+		<block name="cntDeskSafeX51InsecureTE">
+			<property name="Extends" value="cntWallSafeX51InsecureTE"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIcon" value="cntWallSafe"/>
 			<property name="Model" value="@:Entities/LootContainers/safeMetalDeskClosePrefab.prefab"/>
@@ -1752,7 +1804,7 @@
 			<property class="RepairItems">
 				<property name="resourceForgedSteel" value="30"/>
 			</property>
-			<property name="DowngradeBlock" value="cntGunSafeX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeX51InsecureTE"/>
 			<property name="SortOrder1" value="B101"/>
 			<property name="SortOrder2" value="0509"/>
 			<property name="Group" value="Building,advBuilding"/>
@@ -1760,10 +1812,15 @@
 			<property name="FilterTags" value="MC_building,SC_loot"/>
 		</block>
 
-		<block name="cntGunSafeX51Insecure">
+		<block name="cntGunSafeX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="x51GunSafeTE"/> 
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="CompositeTileEntity"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="x51GunSafeTE"/>
+				</property>
+			</property>
 			<property name="CustomIcon" value="cntGunSafeWhite"/>
 			<property name="CustomIconTint" value="404040"/>
 			<property name="TintColor" value="404040"/>
@@ -1797,12 +1854,12 @@
 			<property name="CustomIconTint" value="A0A0A0"/>
 			<property name="TintColor" value="A0A0A0"/>
 			<property name="SortOrder2" value="0500"/>
-			<property name="DowngradeBlock" value="cntGunSafeWhiteX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeWhiteX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeWhiteX51Insecure">
+		<block name="cntGunSafeWhiteX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="A0A0A0"/>
 			<property name="TintColor" value="A0A0A0"/>
 			<property name="SortOrder2" value="0500"/>
@@ -1815,12 +1872,12 @@
 			<property name="CustomIconTint" value="726858"/>
 			<property name="TintColor" value="726858"/>
 			<property name="SortOrder2" value="0501"/>
-			<property name="DowngradeBlock" value="cntGunSafeBrownX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeBrownX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeBrownX51Insecure">
+		<block name="cntGunSafeBrownX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="726858"/>
 			<property name="TintColor" value="726858"/>
 			<property name="SortOrder2" value="0501"/>
@@ -1833,12 +1890,12 @@
 			<property name="CustomIconTint" value="8C6B71"/>
 			<property name="TintColor" value="8C6B71"/>
 			<property name="SortOrder2" value="0502"/>
-			<property name="DowngradeBlock" value="cntGunSafeRedX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeRedX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeRedX51Insecure">
+		<block name="cntGunSafeRedX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="8C6B71"/>
 			<property name="TintColor" value="8C6B71"/>
 			<property name="SortOrder2" value="0502"/>
@@ -1851,12 +1908,12 @@
 			<property name="CustomIconTint" value="91715D"/>
 			<property name="TintColor" value="91715D"/>
 			<property name="SortOrder2" value="0503"/>
-			<property name="DowngradeBlock" value="cntGunSafeOrangeX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeOrangeX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeOrangeX51Insecure">
+		<block name="cntGunSafeOrangeX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="91715D"/>
 			<property name="TintColor" value="91715D"/>
 			<property name="SortOrder2" value="0503"/>
@@ -1869,12 +1926,12 @@
 			<property name="CustomIconTint" value="8C8864"/>
 			<property name="TintColor" value="8C8864"/>
 			<property name="SortOrder2" value="0504"/>
-			<property name="DowngradeBlock" value="cntGunSafeYellowX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeYellowX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeYellowX51Insecure">
+		<block name="cntGunSafeYellowX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="8C8864"/>
 			<property name="TintColor" value="8C8864"/>
 			<property name="SortOrder2" value="0504"/>
@@ -1887,12 +1944,12 @@
 			<property name="CustomIconTint" value="68796A"/>
 			<property name="TintColor" value="68796A"/>
 			<property name="SortOrder2" value="0505"/>
-			<property name="DowngradeBlock" value="cntGunSafeGreenX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeGreenX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeGreenX51Insecure">
+		<block name="cntGunSafeGreenX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="68796A"/>
 			<property name="TintColor" value="68796A"/>
 			<property name="SortOrder2" value="0505"/>
@@ -1905,12 +1962,12 @@
 			<property name="CustomIconTint" value="707C81"/>
 			<property name="TintColor" value="707C81"/>
 			<property name="SortOrder2" value="0506"/>
-			<property name="DowngradeBlock" value="cntGunSafeBlueX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeBlueX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeBlueX51Insecure">
+		<block name="cntGunSafeBlueX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="707C81"/>
 			<property name="TintColor" value="707C81"/>
 			<property name="SortOrder2" value="0506"/>
@@ -1923,12 +1980,12 @@
 			<property name="CustomIconTint" value="6A6572"/>
 			<property name="TintColor" value="6A6572"/>
 			<property name="SortOrder2" value="0507"/>
-			<property name="DowngradeBlock" value="cntGunSafePurpleX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafePurpleX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafePurpleX51Insecure">
+		<block name="cntGunSafePurpleX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="6A6572"/>
 			<property name="TintColor" value="6A6572"/>
 			<property name="SortOrder2" value="0507"/>
@@ -1941,12 +1998,12 @@
 			<property name="CustomIconTint" value="808080"/>
 			<property name="TintColor" value="808080"/>
 			<property name="SortOrder2" value="0508"/>
-			<property name="DowngradeBlock" value="cntGunSafeGreyX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeGreyX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeGreyX51Insecure">
+		<block name="cntGunSafeGreyX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="808080"/>
 			<property name="TintColor" value="808080"/>
 			<property name="SortOrder2" value="0508"/>
@@ -1959,12 +2016,12 @@
 			<property name="CustomIconTint" value="887C89"/>
 			<property name="TintColor" value="887C89"/>
 			<property name="SortOrder2" value="0510"/>
-			<property name="DowngradeBlock" value="cntGunSafePinkX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafePinkX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafePinkX51Insecure">
+		<block name="cntGunSafePinkX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="887C89"/>
 			<property name="TintColor" value="887C89"/>
 			<property name="SortOrder2" value="0510"/>
@@ -1977,12 +2034,12 @@
 			<property name="CustomIconTint" value="465448"/>
 			<property name="TintColor" value="465448"/>
 			<property name="SortOrder2" value="0511"/>
-			<property name="DowngradeBlock" value="cntGunSafeArmyGreenX51Insecure"/>
+			<property name="DowngradeBlock" value="cntGunSafeArmyGreenX51InsecureTE"/>
 		</block>
 
-		<block name="cntGunSafeArmyGreenX51Insecure">
+		<block name="cntGunSafeArmyGreenX51InsecureTE">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="cntGunSafeX51Insecure"/>
+			<property name="Extends" value="cntGunSafeX51InsecureTE"/>
 			<property name="CustomIconTint" value="465448"/>
 			<property name="TintColor" value="465448"/>
 			<property name="SortOrder2" value="0511"/>
