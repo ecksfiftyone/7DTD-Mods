@@ -1,6 +1,5 @@
 <configs>
   <!-- More Solar Cells -->	
-    <set xpath="traders/trader_item_groups/trader_item_group[@name='traderElectrical']/item[@name='solarCell']/@prob">0.5</set> <!-- Default prob: 0.2 -->
 
   <!-- Materials For Solar Crafting -->		 
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='generalResources']">
