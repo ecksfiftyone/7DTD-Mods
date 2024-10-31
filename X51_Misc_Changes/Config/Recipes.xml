@@ -27,11 +27,8 @@
             <ingredient name="resourceClayLump" count="1"/>
         </recipe>	
 		
-	</append>
 
 <!-- #####   Convert Ammo into AP / HP -->
-
-    <append xpath="/recipes">
 	
   <!-- ## 9MM -->	
         <recipe name="ammo9mmBulletHP" count="1" craft_time="1">
@@ -83,6 +80,7 @@
         <recipe name="ammoBundle762mmBulletAP" count="1" craft_time="10">
             <ingredient name="ammo762mmBulletBall" count="200"/>
         </recipe>
+		
 	</append>
 
 	
